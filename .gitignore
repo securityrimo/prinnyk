@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# ISO
+*.iso
+*.cso
+
+# Workspace
+workspace/
+
+# Reports
+reports/
+
+# Temporary
+*.tmp
+*.log
+.cache/
+
+# Secrets
+token
+.env
