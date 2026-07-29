@@ -1,6 +1,25 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+# BEGIN FONT CLI BRIDGE
+# 기존 CLI 파서를 변경하지 않고 font 명령만 먼저 처리한다.
+if __name__ == "__main__":
+    import sys as _font_cli_sys
+
+    if (
+        len(_font_cli_sys.argv) >= 2
+        and _font_cli_sys.argv[1] == "font"
+    ):
+        from font_cli import main as _font_cli_main
+
+        raise SystemExit(
+            _font_cli_main(
+                _font_cli_sys.argv[2:]
+            )
+        )
+# END FONT CLI BRIDGE
+
+
 import argparse
 import json
 from pathlib import Path
