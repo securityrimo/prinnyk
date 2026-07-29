@@ -1,0 +1,1665 @@
+============================================================
+FILE : workspace/unpack/SCRIPT/G9system.nsf
+SIZE : 5258
+============================================================
+
+HEADER
+0000: 00000000
+0004: 00000ABA
+0008: 0000009B
+000C: 00000000
+0010: 0000009B
+0014: 00000000
+0018: 00000000
+001C: 00000000
+
+blob_size : 2746
+count     : 155
+
+============================================================
+ENTRY TABLE
+============================================================
+000  ptr=02FB1790  val=00000000
+001  ptr=02FB17F4  val=0000001E
+002  ptr=02FB1B78  val=0000003C
+003  ptr=02FB1BDC  val=0000004D
+004  ptr=02FB1C40  val=0000005E
+005  ptr=02FB1F60  val=0000006F
+006  ptr=02FB1FC4  val=00000080
+007  ptr=02FB2028  val=00000091
+008  ptr=02FB208C  val=000000A2
+009  ptr=02FB20F0  val=000000B3
+010  ptr=02FB2348  val=000000D1
+011  ptr=02FB23AC  val=000000E2
+012  ptr=02FB2730  val=000000F3
+013  ptr=02FB2B7C  val=00000104
+014  ptr=02FB2BE0  val=00000115
+015  ptr=02FB2C44  val=00000126
+016  ptr=02FB2CA8  val=00000137
+017  ptr=02FB2F00  val=00000148
+018  ptr=02FB2F64  val=00000159
+019  ptr=02FB32E8  val=0000016A
+020  ptr=02FB334C  val=0000017B
+021  ptr=02FB33B0  val=0000018C
+022  ptr=02FB3414  val=0000019D
+023  ptr=02FB3478  val=000001AE
+024  ptr=02FB36D0  val=000001BF
+025  ptr=02FB3734  val=000001D0
+026  ptr=02FB3AB8  val=000001E1
+027  ptr=02FB3B1C  val=000001F2
+028  ptr=02FB3EA0  val=00000203
+029  ptr=02FB3F04  val=00000214
+030  ptr=02FB3F68  val=00000225
+031  ptr=02FB4288  val=00000236
+032  ptr=02FB42EC  val=00000247
+033  ptr=02FB4350  val=00000258
+034  ptr=02FB4670  val=00000269
+035  ptr=02FB4A58  val=0000027A
+036  ptr=02FB4ABC  val=0000028B
+037  ptr=02FB4B20  val=0000029C
+038  ptr=02FB4B84  val=000002AD
+039  ptr=02FB4E40  val=000002BE
+040  ptr=02FB5228  val=000002CF
+041  ptr=02FB59F8  val=000002E0
+042  ptr=02FB5A5C  val=000002F1
+043  ptr=02FB5DE0  val=00000302
+044  ptr=02FB5E44  val=00000313
+045  ptr=02FB5EA8  val=00000324
+046  ptr=02FB5F0C  val=00000335
+047  ptr=02FB5F70  val=00000346
+048  ptr=02FB5FD4  val=00000357
+049  ptr=02FB6038  val=00000368
+050  ptr=02FB61C8  val=00000379
+051  ptr=02FB622C  val=0000038A
+052  ptr=02FB65B0  val=0000039B
+053  ptr=02FB6998  val=000003AC
+054  ptr=02FB69FC  val=000003BD
+055  ptr=02FB6D80  val=000003CE
+056  ptr=02FB6DE4  val=000003DF
+057  ptr=02FB7168  val=000003F0
+058  ptr=02FB7550  val=00000401
+059  ptr=02FB75B4  val=00000412
+060  ptr=02FB7618  val=00000423
+061  ptr=02FB767C  val=00000434
+062  ptr=02FB7938  val=00000445
+063  ptr=02FB799C  val=00000456
+064  ptr=02FB7A00  val=00000467
+065  ptr=02FB7A64  val=00000478
+066  ptr=02FB7D20  val=00000489
+067  ptr=02FB8108  val=0000049A
+068  ptr=02FB816C  val=000004AB
+069  ptr=02FB81D0  val=000004BC
+070  ptr=02FB84F0  val=000004CD
+071  ptr=02FB88D8  val=000004DE
+072  ptr=02FB8CC0  val=000004EF
+073  ptr=02FB90A8  val=00000500
+074  ptr=02FB910C  val=00000511
+075  ptr=02FB9170  val=00000522
+076  ptr=02FB91D4  val=00000533
+077  ptr=02FB9238  val=00000544
+078  ptr=02FB929C  val=00000555
+079  ptr=02FB9300  val=00000566
+080  ptr=02FB9364  val=00000577
+081  ptr=02FB93C8  val=00000588
+082  ptr=02FB9490  val=00000599
+083  ptr=02FB94F4  val=000005AA
+084  ptr=02FB9558  val=000005BB
+085  ptr=02FB95BC  val=000005CC
+086  ptr=02FB9620  val=000005DD
+087  ptr=02FB9684  val=000005EE
+088  ptr=02FB96E8  val=000005FF
+089  ptr=02FB974C  val=00000610
+090  ptr=02FB97B0  val=00000621
+091  ptr=02FB9878  val=00000632
+092  ptr=02FB9C60  val=00000643
+093  ptr=02FBDAE0  val=00000654
+094  ptr=02FBDEC8  val=00000665
+095  ptr=02FBDF2C  val=00000676
+096  ptr=02FBE2B0  val=00000687
+097  ptr=02FBE698  val=00000698
+098  ptr=02FBE6FC  val=000006A9
+099  ptr=02FBE88C  val=000006BA
+100  ptr=02FBE8F0  val=000006CB
+101  ptr=02FBEA80  val=000006DC
+102  ptr=02FBEAE4  val=000006ED
+103  ptr=02FBEE68  val=000006FE
+104  ptr=02FBF250  val=00000721
+105  ptr=02FBF638  val=00000732
+106  ptr=02FBF69C  val=00000743
+107  ptr=02FBFA20  val=00000754
+108  ptr=02FBFE08  val=00000765
+109  ptr=02FC01F0  val=00000776
+110  ptr=02FC05D8  val=00000787
+111  ptr=02FC09C0  val=00000798
+112  ptr=02FC0DA8  val=000007A9
+113  ptr=02FC1190  val=000007BA
+114  ptr=02FC1578  val=000007CB
+115  ptr=02FC1960  val=000007EE
+116  ptr=02FDFDC0  val=00000802
+117  ptr=02FE01A8  val=00000816
+118  ptr=02FE0590  val=00000827
+119  ptr=02FF8460  val=00000838
+120  ptr=02FF84C4  val=00000849
+121  ptr=02FF8848  val=0000085A
+122  ptr=02FF88AC  val=0000086B
+123  ptr=02FF8C30  val=0000087C
+124  ptr=02FF8C94  val=0000088D
+125  ptr=02FF9018  val=0000089E
+126  ptr=02FF907C  val=000008AF
+127  ptr=02FF9400  val=000008C0
+128  ptr=02FF9464  val=000008D1
+129  ptr=02FF97E8  val=000008E2
+130  ptr=02FF984C  val=000008F3
+131  ptr=02FF9BD0  val=00000904
+132  ptr=0308AC20  val=00000918
+133  ptr=0308B3F0  val=00000929
+134  ptr=030A36A8  val=0000093A
+135  ptr=030A3A90  val=0000094B
+136  ptr=0311D3E0  val=0000095C
+137  ptr=0311D7C8  val=0000096D
+138  ptr=0311DBB0  val=0000097E
+139  ptr=0311DF98  val=0000098F
+140  ptr=0314E120  val=000009A3
+141  ptr=03150894  val=000009B4
+142  ptr=031508F8  val=000009C5
+143  ptr=0315095C  val=000009D6
+144  ptr=031509C0  val=000009E7
+145  ptr=03150A24  val=000009F8
+146  ptr=03150A88  val=00000A09
+147  ptr=03152F40  val=00000A1A
+148  ptr=03152FA4  val=00000A2E
+149  ptr=03153008  val=00000A42
+150  ptr=0315306C  val=00000A56
+151  ptr=031530D0  val=00000A6A
+152  ptr=03153134  val=00000A7E
+153  ptr=03153198  val=00000A92
+154  ptr=031531FC  val=00000AA6
+
+============================================================
+ENTRY ANALYSIS
+============================================================
+
+------------------------------------------------------------
+ENTRY 0
+PTR : 02FB1790
+VAL : 00000000
+PTR outside file
+VAL inside file
+HEX : 00 00 00 00 BA 0A 00 00 9B 00 00 00 00 00 00 00 9B 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 1
+PTR : 02FB17F4
+VAL : 0000001E
+PTR outside file
+VAL inside file
+HEX : 00 00 90 17 FB 02 00 00 00 00 F4 17 FB 02 1E 00 00 00 78 1B FB 02 3C 00 00 00 DC 1B FB 02 4D 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 2
+PTR : 02FB1B78
+VAL : 0000003C
+PTR outside file
+VAL inside file
+HEX : 4D 00 00 00 40 1C FB 02 5E 00 00 00 60 1F FB 02 6F 00 00 00 C4 1F FB 02 80 00 00 00 28 20 FB 02
+ASCII : M
+SJIS : 'M'
+
+------------------------------------------------------------
+ENTRY 3
+PTR : 02FB1BDC
+VAL : 0000004D
+PTR outside file
+VAL inside file
+HEX : 00 00 00 C4 1F FB 02 80 00 00 00 28 20 FB 02 91 00 00 00 8C 20 FB 02 A2 00 00 00 F0 20 FB 02 B3
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 4
+PTR : 02FB1C40
+VAL : 0000005E
+PTR outside file
+VAL inside file
+HEX : 00 00 8C 20 FB 02 A2 00 00 00 F0 20 FB 02 B3 00 00 00 48 23 FB 02 D1 00 00 00 AC 23 FB 02 E2 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 5
+PTR : 02FB1F60
+VAL : 0000006F
+PTR outside file
+VAL inside file
+HEX : 00 48 23 FB 02 D1 00 00 00 AC 23 FB 02 E2 00 00 00 30 27 FB 02 F3 00 00 00 7C 2B FB 02 04 01 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 6
+PTR : 02FB1FC4
+VAL : 00000080
+PTR outside file
+VAL inside file
+HEX : 30 27 FB 02 F3 00 00 00 7C 2B FB 02 04 01 00 00 E0 2B FB 02 15 01 00 00 44 2C FB 02 26 01 00 00
+ASCII : 0'...
+
+------------------------------------------------------------
+ENTRY 7
+PTR : 02FB2028
+VAL : 00000091
+PTR outside file
+VAL inside file
+HEX : 2B FB 02 15 01 00 00 44 2C FB 02 26 01 00 00 A8 2C FB 02 37 01 00 00 00 2F FB 02 48 01 00 00 64
+ASCII : +....
+
+------------------------------------------------------------
+ENTRY 8
+PTR : 02FB208C
+VAL : 000000A2
+PTR outside file
+VAL inside file
+HEX : FB 02 37 01 00 00 00 2F FB 02 48 01 00 00 64 2F FB 02 59 01 00 00 E8 32 FB 02 6A 01 00 00 4C 33
+ASCII : ..7.
+
+------------------------------------------------------------
+ENTRY 9
+PTR : 02FB20F0
+VAL : 000000B3
+PTR outside file
+VAL inside file
+HEX : 02 59 01 00 00 E8 32 FB 02 6A 01 00 00 4C 33 FB 02 7B 01 00 00 B0 33 FB 02 8C 01 00 00 14 34 FB
+ASCII : .Y.
+SJIS : '\x02Y\x01'
+
+------------------------------------------------------------
+ENTRY 10
+PTR : 02FB2348
+VAL : 000000D1
+PTR outside file
+VAL inside file
+HEX : 34 FB 02 9D 01 00 00 78 34 FB 02 AE 01 00 00 D0 36 FB 02 BF 01 00 00 34 37 FB 02 D0 01 00 00 B8
+ASCII : 4....
+
+------------------------------------------------------------
+ENTRY 11
+PTR : 02FB23AC
+VAL : 000000E2
+PTR outside file
+VAL inside file
+HEX : FB 02 BF 01 00 00 34 37 FB 02 D0 01 00 00 B8 3A FB 02 E1 01 00 00 1C 3B FB 02 F2 01 00 00 A0 3E
+ASCII : ....
+
+------------------------------------------------------------
+ENTRY 12
+PTR : 02FB2730
+VAL : 000000F3
+PTR outside file
+VAL inside file
+HEX : 02 E1 01 00 00 1C 3B FB 02 F2 01 00 00 A0 3E FB 02 03 02 00 00 04 3F FB 02 14 02 00 00 68 3F FB
+ASCII : ...
+
+------------------------------------------------------------
+ENTRY 13
+PTR : 02FB2B7C
+VAL : 00000104
+PTR outside file
+VAL inside file
+HEX : 03 02 00 00 04 3F FB 02 14 02 00 00 68 3F FB 02 25 02 00 00 88 42 FB 02 36 02 00 00 EC 42 FB 02
+ASCII : ..
+SJIS : '\x03\x02'
+
+------------------------------------------------------------
+ENTRY 14
+PTR : 02FB2BE0
+VAL : 00000115
+PTR outside file
+VAL inside file
+HEX : 02 00 00 88 42 FB 02 36 02 00 00 EC 42 FB 02 47 02 00 00 50 43 FB 02 58 02 00 00 70 46 FB 02 69
+ASCII : .
+SJIS : '\x02'
+
+------------------------------------------------------------
+ENTRY 15
+PTR : 02FB2C44
+VAL : 00000126
+PTR outside file
+VAL inside file
+HEX : 00 00 50 43 FB 02 58 02 00 00 70 46 FB 02 69 02 00 00 58 4A FB 02 7A 02 00 00 BC 4A FB 02 8B 02
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 16
+PTR : 02FB2CA8
+VAL : 00000137
+PTR outside file
+VAL inside file
+HEX : 00 58 4A FB 02 7A 02 00 00 BC 4A FB 02 8B 02 00 00 20 4B FB 02 9C 02 00 00 84 4B FB 02 AD 02 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 17
+PTR : 02FB2F00
+VAL : 00000148
+PTR outside file
+VAL inside file
+HEX : 20 4B FB 02 9C 02 00 00 84 4B FB 02 AD 02 00 00 40 4E FB 02 BE 02 00 00 28 52 FB 02 CF 02 00 00
+ASCII :  K....
+
+------------------------------------------------------------
+ENTRY 18
+PTR : 02FB2F64
+VAL : 00000159
+PTR outside file
+VAL inside file
+HEX : 4E FB 02 BE 02 00 00 28 52 FB 02 CF 02 00 00 F8 59 FB 02 E0 02 00 00 5C 5A FB 02 F1 02 00 00 E0
+ASCII : N....
+
+------------------------------------------------------------
+ENTRY 19
+PTR : 02FB32E8
+VAL : 0000016A
+PTR outside file
+VAL inside file
+HEX : FB 02 E0 02 00 00 5C 5A FB 02 F1 02 00 00 E0 5D FB 02 02 03 00 00 44 5E FB 02 13 03 00 00 A8 5E
+ASCII : ....
+
+------------------------------------------------------------
+ENTRY 20
+PTR : 02FB334C
+VAL : 0000017B
+PTR outside file
+VAL inside file
+HEX : 02 02 03 00 00 44 5E FB 02 13 03 00 00 A8 5E FB 02 24 03 00 00 0C 5F FB 02 35 03 00 00 70 5F FB
+ASCII : ...
+SJIS : '\x02\x02\x03'
+
+------------------------------------------------------------
+ENTRY 21
+PTR : 02FB33B0
+VAL : 0000018C
+PTR outside file
+VAL inside file
+HEX : 24 03 00 00 0C 5F FB 02 35 03 00 00 70 5F FB 02 46 03 00 00 D4 5F FB 02 57 03 00 00 38 60 FB 02
+ASCII : $.
+SJIS : '$\x03'
+
+------------------------------------------------------------
+ENTRY 22
+PTR : 02FB3414
+VAL : 0000019D
+PTR outside file
+VAL inside file
+HEX : 03 00 00 D4 5F FB 02 57 03 00 00 38 60 FB 02 68 03 00 00 C8 61 FB 02 79 03 00 00 2C 62 FB 02 8A
+ASCII : .
+SJIS : '\x03'
+
+------------------------------------------------------------
+ENTRY 23
+PTR : 02FB3478
+VAL : 000001AE
+PTR outside file
+VAL inside file
+HEX : 00 00 C8 61 FB 02 79 03 00 00 2C 62 FB 02 8A 03 00 00 B0 65 FB 02 9B 03 00 00 98 69 FB 02 AC 03
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 24
+PTR : 02FB36D0
+VAL : 000001BF
+PTR outside file
+VAL inside file
+HEX : 00 B0 65 FB 02 9B 03 00 00 98 69 FB 02 AC 03 00 00 FC 69 FB 02 BD 03 00 00 80 6D FB 02 CE 03 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 25
+PTR : 02FB3734
+VAL : 000001D0
+PTR outside file
+VAL inside file
+HEX : FC 69 FB 02 BD 03 00 00 80 6D FB 02 CE 03 00 00 E4 6D FB 02 DF 03 00 00 68 71 FB 02 F0 03 00 00
+ASCII : .i....
+
+------------------------------------------------------------
+ENTRY 26
+PTR : 02FB3AB8
+VAL : 000001E1
+PTR outside file
+VAL inside file
+HEX : 6D FB 02 DF 03 00 00 68 71 FB 02 F0 03 00 00 50 75 FB 02 01 04 00 00 B4 75 FB 02 12 04 00 00 18
+ASCII : m....
+
+------------------------------------------------------------
+ENTRY 27
+PTR : 02FB3B1C
+VAL : 000001F2
+PTR outside file
+VAL inside file
+HEX : FB 02 01 04 00 00 B4 75 FB 02 12 04 00 00 18 76 FB 02 23 04 00 00 7C 76 FB 02 34 04 00 00 38 79
+ASCII : ....
+
+------------------------------------------------------------
+ENTRY 28
+PTR : 02FB3EA0
+VAL : 00000203
+PTR outside file
+VAL inside file
+HEX : 02 23 04 00 00 7C 76 FB 02 34 04 00 00 38 79 FB 02 45 04 00 00 9C 79 FB 02 56 04 00 00 00 7A FB
+ASCII : .#.
+SJIS : '\x02#\x04'
+
+------------------------------------------------------------
+ENTRY 29
+PTR : 02FB3F04
+VAL : 00000214
+PTR outside file
+VAL inside file
+HEX : 45 04 00 00 9C 79 FB 02 56 04 00 00 00 7A FB 02 67 04 00 00 64 7A FB 02 78 04 00 00 20 7D FB 02
+ASCII : E.
+SJIS : 'E\x04'
+
+------------------------------------------------------------
+ENTRY 30
+PTR : 02FB3F68
+VAL : 00000225
+PTR outside file
+VAL inside file
+HEX : 04 00 00 64 7A FB 02 78 04 00 00 20 7D FB 02 89 04 00 00 08 81 FB 02 9A 04 00 00 6C 81 FB 02 AB
+ASCII : .
+SJIS : '\x04'
+
+------------------------------------------------------------
+ENTRY 31
+PTR : 02FB4288
+VAL : 00000236
+PTR outside file
+VAL inside file
+HEX : 00 00 08 81 FB 02 9A 04 00 00 6C 81 FB 02 AB 04 00 00 D0 81 FB 02 BC 04 00 00 F0 84 FB 02 CD 04
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 32
+PTR : 02FB42EC
+VAL : 00000247
+PTR outside file
+VAL inside file
+HEX : 00 D0 81 FB 02 BC 04 00 00 F0 84 FB 02 CD 04 00 00 D8 88 FB 02 DE 04 00 00 C0 8C FB 02 EF 04 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 33
+PTR : 02FB4350
+VAL : 00000258
+PTR outside file
+VAL inside file
+HEX : D8 88 FB 02 DE 04 00 00 C0 8C FB 02 EF 04 00 00 A8 90 FB 02 00 05 00 00 0C 91 FB 02 11 05 00 00
+ASCII : ......
+SJIS : 'ﾘ胤\x02ﾞ\x04'
+
+------------------------------------------------------------
+ENTRY 34
+PTR : 02FB4670
+VAL : 00000269
+PTR outside file
+VAL inside file
+HEX : 90 FB 02 00 05 00 00 0C 91 FB 02 11 05 00 00 70 91 FB 02 22 05 00 00 D4 91 FB 02 33 05 00 00 38
+ASCII : ...
+SJIS : '箭\x02'
+
+------------------------------------------------------------
+ENTRY 35
+PTR : 02FB4A58
+VAL : 0000027A
+PTR outside file
+VAL inside file
+HEX : FB 02 22 05 00 00 D4 91 FB 02 33 05 00 00 38 92 FB 02 44 05 00 00 9C 92 FB 02 55 05 00 00 00 93
+ASCII : ..".
+
+------------------------------------------------------------
+ENTRY 36
+PTR : 02FB4ABC
+VAL : 0000028B
+PTR outside file
+VAL inside file
+HEX : 02 44 05 00 00 9C 92 FB 02 55 05 00 00 00 93 FB 02 66 05 00 00 64 93 FB 02 77 05 00 00 C8 93 FB
+ASCII : .D.
+SJIS : '\x02D\x05'
+
+------------------------------------------------------------
+ENTRY 37
+PTR : 02FB4B20
+VAL : 0000029C
+PTR outside file
+VAL inside file
+HEX : 66 05 00 00 64 93 FB 02 77 05 00 00 C8 93 FB 02 88 05 00 00 90 94 FB 02 99 05 00 00 F4 94 FB 02
+ASCII : f.
+SJIS : 'f\x05'
+
+------------------------------------------------------------
+ENTRY 38
+PTR : 02FB4B84
+VAL : 000002AD
+PTR outside file
+VAL inside file
+HEX : 05 00 00 90 94 FB 02 99 05 00 00 F4 94 FB 02 AA 05 00 00 58 95 FB 02 BB 05 00 00 BC 95 FB 02 CC
+ASCII : .
+SJIS : '\x05'
+
+------------------------------------------------------------
+ENTRY 39
+PTR : 02FB4E40
+VAL : 000002BE
+PTR outside file
+VAL inside file
+HEX : 00 00 58 95 FB 02 BB 05 00 00 BC 95 FB 02 CC 05 00 00 20 96 FB 02 DD 05 00 00 84 96 FB 02 EE 05
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 40
+PTR : 02FB5228
+VAL : 000002CF
+PTR outside file
+VAL inside file
+HEX : 00 20 96 FB 02 DD 05 00 00 84 96 FB 02 EE 05 00 00 E8 96 FB 02 FF 05 00 00 4C 97 FB 02 10 06 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 41
+PTR : 02FB59F8
+VAL : 000002E0
+PTR outside file
+VAL inside file
+HEX : E8 96 FB 02 FF 05 00 00 4C 97 FB 02 10 06 00 00 B0 97 FB 02 21 06 00 00 78 98 FB 02 32 06 00 00
+ASCII : ......
+
+------------------------------------------------------------
+ENTRY 42
+PTR : 02FB5A5C
+VAL : 000002F1
+PTR outside file
+VAL inside file
+HEX : 97 FB 02 21 06 00 00 78 98 FB 02 32 06 00 00 60 9C FB 02 43 06 00 00 E0 DA FB 02 54 06 00 00 C8
+ASCII : ...!.
+SJIS : '練\x02!\x06'
+
+------------------------------------------------------------
+ENTRY 43
+PTR : 02FB5DE0
+VAL : 00000302
+PTR outside file
+VAL inside file
+HEX : FB 02 43 06 00 00 E0 DA FB 02 54 06 00 00 C8 DE FB 02 65 06 00 00 2C DF FB 02 76 06 00 00 B0 E2
+ASCII : ..C.
+
+------------------------------------------------------------
+ENTRY 44
+PTR : 02FB5E44
+VAL : 00000313
+PTR outside file
+VAL inside file
+HEX : 02 65 06 00 00 2C DF FB 02 76 06 00 00 B0 E2 FB 02 87 06 00 00 98 E6 FB 02 98 06 00 00 FC E6 FB
+ASCII : .e.
+SJIS : '\x02e\x06'
+
+------------------------------------------------------------
+ENTRY 45
+PTR : 02FB5EA8
+VAL : 00000324
+PTR outside file
+VAL inside file
+HEX : 87 06 00 00 98 E6 FB 02 98 06 00 00 FC E6 FB 02 A9 06 00 00 8C E8 FB 02 BA 06 00 00 F0 E8 FB 02
+ASCII : ..
+
+------------------------------------------------------------
+ENTRY 46
+PTR : 02FB5F0C
+VAL : 00000335
+PTR outside file
+VAL inside file
+HEX : 06 00 00 8C E8 FB 02 BA 06 00 00 F0 E8 FB 02 CB 06 00 00 80 EA FB 02 DC 06 00 00 E4 EA FB 02 ED
+ASCII : .
+SJIS : '\x06'
+
+------------------------------------------------------------
+ENTRY 47
+PTR : 02FB5F70
+VAL : 00000346
+PTR outside file
+VAL inside file
+HEX : 00 00 80 EA FB 02 DC 06 00 00 E4 EA FB 02 ED 06 00 00 68 EE FB 02 FE 06 00 00 50 F2 FB 02 21 07
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 48
+PTR : 02FB5FD4
+VAL : 00000357
+PTR outside file
+VAL inside file
+HEX : 00 68 EE FB 02 FE 06 00 00 50 F2 FB 02 21 07 00 00 38 F6 FB 02 32 07 00 00 9C F6 FB 02 43 07 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 49
+PTR : 02FB6038
+VAL : 00000368
+PTR outside file
+VAL inside file
+HEX : 38 F6 FB 02 32 07 00 00 9C F6 FB 02 43 07 00 00 20 FA FB 02 54 07 00 00 08 FE FB 02 65 07 00 00
+ASCII : 8...2.
+
+------------------------------------------------------------
+ENTRY 50
+PTR : 02FB61C8
+VAL : 00000379
+PTR outside file
+VAL inside file
+HEX : FA FB 02 54 07 00 00 08 FE FB 02 65 07 00 00 F0 01 FC 02 76 07 00 00 D8 05 FC 02 87 07 00 00 C0
+ASCII : ...T.
+
+------------------------------------------------------------
+ENTRY 51
+PTR : 02FB622C
+VAL : 0000038A
+PTR outside file
+VAL inside file
+HEX : FC 02 76 07 00 00 D8 05 FC 02 87 07 00 00 C0 09 FC 02 98 07 00 00 A8 0D FC 02 A9 07 00 00 90 11
+ASCII : ..v.
+
+------------------------------------------------------------
+ENTRY 52
+PTR : 02FB65B0
+VAL : 0000039B
+PTR outside file
+VAL inside file
+HEX : 02 98 07 00 00 A8 0D FC 02 A9 07 00 00 90 11 FC 02 BA 07 00 00 78 15 FC 02 CB 07 00 00 60 19 FC
+ASCII : ...
+
+------------------------------------------------------------
+ENTRY 53
+PTR : 02FB6998
+VAL : 000003AC
+PTR outside file
+VAL inside file
+HEX : BA 07 00 00 78 15 FC 02 CB 07 00 00 60 19 FC 02 EE 07 00 00 C0 FD FD 02 02 08 00 00 A8 01 FE 02
+ASCII : ..
+SJIS : 'ｺ\x07'
+
+------------------------------------------------------------
+ENTRY 54
+PTR : 02FB69FC
+VAL : 000003BD
+PTR outside file
+VAL inside file
+HEX : 07 00 00 C0 FD FD 02 02 08 00 00 A8 01 FE 02 16 08 00 00 90 05 FE 02 27 08 00 00 60 84 FF 02 38
+ASCII : .
+SJIS : '\x07'
+
+------------------------------------------------------------
+ENTRY 55
+PTR : 02FB6D80
+VAL : 000003CE
+PTR outside file
+VAL inside file
+HEX : 00 00 90 05 FE 02 27 08 00 00 60 84 FF 02 38 08 00 00 C4 84 FF 02 49 08 00 00 48 88 FF 02 5A 08
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 56
+PTR : 02FB6DE4
+VAL : 000003DF
+PTR outside file
+VAL inside file
+HEX : 00 C4 84 FF 02 49 08 00 00 48 88 FF 02 5A 08 00 00 AC 88 FF 02 6B 08 00 00 30 8C FF 02 7C 08 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 57
+PTR : 02FB7168
+VAL : 000003F0
+PTR outside file
+VAL inside file
+HEX : AC 88 FF 02 6B 08 00 00 30 8C FF 02 7C 08 00 00 94 8C FF 02 8D 08 00 00 18 90 FF 02 9E 08 00 00
+ASCII : ....k.
+
+------------------------------------------------------------
+ENTRY 58
+PTR : 02FB7550
+VAL : 00000401
+PTR outside file
+VAL inside file
+HEX : 8C FF 02 8D 08 00 00 18 90 FF 02 9E 08 00 00 7C 90 FF 02 AF 08 00 00 00 94 FF 02 C0 08 00 00 64
+ASCII : .....
+
+------------------------------------------------------------
+ENTRY 59
+PTR : 02FB75B4
+VAL : 00000412
+PTR outside file
+VAL inside file
+HEX : FF 02 AF 08 00 00 00 94 FF 02 C0 08 00 00 64 94 FF 02 D1 08 00 00 E8 97 FF 02 E2 08 00 00 4C 98
+ASCII : ....
+
+------------------------------------------------------------
+ENTRY 60
+PTR : 02FB7618
+VAL : 00000423
+PTR outside file
+VAL inside file
+HEX : 02 D1 08 00 00 E8 97 FF 02 E2 08 00 00 4C 98 FF 02 F3 08 00 00 D0 9B FF 02 04 09 00 00 20 AC 08
+ASCII : ...
+SJIS : '\x02ﾑ\x08'
+
+------------------------------------------------------------
+ENTRY 61
+PTR : 02FB767C
+VAL : 00000434
+PTR outside file
+VAL inside file
+HEX : F3 08 00 00 D0 9B FF 02 04 09 00 00 20 AC 08 03 18 09 00 00 F0 B3 08 03 29 09 00 00 A8 36 0A 03
+ASCII : ..
+
+------------------------------------------------------------
+ENTRY 62
+PTR : 02FB7938
+VAL : 00000445
+PTR outside file
+VAL inside file
+HEX : 09 00 00 F0 B3 08 03 29 09 00 00 A8 36 0A 03 3A 09 00 00 90 3A 0A 03 4B 09 00 00 E0 D3 11 03 5C
+ASCII : .
+SJIS : '\t'
+
+------------------------------------------------------------
+ENTRY 63
+PTR : 02FB799C
+VAL : 00000456
+PTR outside file
+VAL inside file
+HEX : 00 00 90 3A 0A 03 4B 09 00 00 E0 D3 11 03 5C 09 00 00 C8 D7 11 03 6D 09 00 00 B0 DB 11 03 7E 09
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 64
+PTR : 02FB7A00
+VAL : 00000467
+PTR outside file
+VAL inside file
+HEX : 00 C8 D7 11 03 6D 09 00 00 B0 DB 11 03 7E 09 00 00 98 DF 11 03 8F 09 00 00 20 E1 14 03 A3 09 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 65
+PTR : 02FB7A64
+VAL : 00000478
+PTR outside file
+VAL inside file
+HEX : 98 DF 11 03 8F 09 00 00 20 E1 14 03 A3 09 00 00 94 08 15 03 B4 09 00 00 F8 08 15 03 C5 09 00 00
+ASCII : ......
+
+------------------------------------------------------------
+ENTRY 66
+PTR : 02FB7D20
+VAL : 00000489
+PTR outside file
+VAL inside file
+HEX : 08 15 03 B4 09 00 00 F8 08 15 03 C5 09 00 00 5C 09 15 03 D6 09 00 00 C0 09 15 03 E7 09 00 00 24
+ASCII : .....
+SJIS : '\x08\x15\x03ｴ\t'
+
+------------------------------------------------------------
+ENTRY 67
+PTR : 02FB8108
+VAL : 0000049A
+PTR outside file
+VAL inside file
+HEX : 15 03 D6 09 00 00 C0 09 15 03 E7 09 00 00 24 0A 15 03 F8 09 00 00 88 0A 15 03 09 0A 00 00 40 2F
+ASCII : ....
+SJIS : '\x15\x03ﾖ\t'
+
+------------------------------------------------------------
+ENTRY 68
+PTR : 02FB816C
+VAL : 000004AB
+PTR outside file
+VAL inside file
+HEX : 03 F8 09 00 00 88 0A 15 03 09 0A 00 00 40 2F 15 03 1A 0A 00 00 A4 2F 15 03 2E 0A 00 00 08 30 15
+ASCII : ...
+
+------------------------------------------------------------
+ENTRY 69
+PTR : 02FB81D0
+VAL : 000004BC
+PTR outside file
+VAL inside file
+HEX : 1A 0A 00 00 A4 2F 15 03 2E 0A 00 00 08 30 15 03 42 0A 00 00 6C 30 15 03 56 0A 00 00 D0 30 15 03
+ASCII : ..
+SJIS : '\x1a\n'
+
+------------------------------------------------------------
+ENTRY 70
+PTR : 02FB84F0
+VAL : 000004CD
+PTR outside file
+VAL inside file
+HEX : 0A 00 00 6C 30 15 03 56 0A 00 00 D0 30 15 03 6A 0A 00 00 34 31 15 03 7E 0A 00 00 98 31 15 03 92
+ASCII : .
+SJIS : '\n'
+
+------------------------------------------------------------
+ENTRY 71
+PTR : 02FB88D8
+VAL : 000004DE
+PTR outside file
+VAL inside file
+HEX : 00 00 34 31 15 03 7E 0A 00 00 98 31 15 03 92 0A 00 00 FC 31 15 03 A6 0A 00 00 00 00 00 00 1D 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 72
+PTR : 02FB8CC0
+VAL : 000004EF
+PTR outside file
+VAL inside file
+HEX : 00 FC 31 15 03 A6 0A 00 00 00 00 00 00 1D 00 00 00 1E 00 00 00 3B 00 00 00 3C 00 00 00 4C 00 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 73
+PTR : 02FB90A8
+VAL : 00000500
+PTR outside file
+VAL inside file
+HEX : 1E 00 00 00 3B 00 00 00 3C 00 00 00 4C 00 00 00 4D 00 00 00 5D 00 00 00 5E 00 00 00 6E 00 00 00
+ASCII : .
+SJIS : '\x1e'
+
+------------------------------------------------------------
+ENTRY 74
+PTR : 02FB910C
+VAL : 00000511
+PTR outside file
+VAL inside file
+HEX : 00 00 00 5D 00 00 00 5E 00 00 00 6E 00 00 00 6F 00 00 00 7F 00 00 00 80 00 00 00 90 00 00 00 91
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 75
+PTR : 02FB9170
+VAL : 00000522
+PTR outside file
+VAL inside file
+HEX : 00 00 7F 00 00 00 80 00 00 00 90 00 00 00 91 00 00 00 A1 00 00 00 A2 00 00 00 B2 00 00 00 B3 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 76
+PTR : 02FB91D4
+VAL : 00000533
+PTR outside file
+VAL inside file
+HEX : 00 A1 00 00 00 A2 00 00 00 B2 00 00 00 B3 00 00 00 D0 00 00 00 D1 00 00 00 E1 00 00 00 E2 00 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 77
+PTR : 02FB9238
+VAL : 00000544
+PTR outside file
+VAL inside file
+HEX : D0 00 00 00 D1 00 00 00 E1 00 00 00 E2 00 00 00 F2 00 00 00 F3 00 00 00 03 01 00 00 04 01 00 00
+ASCII : .
+SJIS : 'ﾐ'
+
+------------------------------------------------------------
+ENTRY 78
+PTR : 02FB929C
+VAL : 00000555
+PTR outside file
+VAL inside file
+HEX : 00 00 00 F3 00 00 00 03 01 00 00 04 01 00 00 14 01 00 00 15 01 00 00 25 01 00 00 26 01 00 00 36
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 79
+PTR : 02FB9300
+VAL : 00000566
+PTR outside file
+VAL inside file
+HEX : 00 00 15 01 00 00 25 01 00 00 26 01 00 00 36 01 00 00 37 01 00 00 47 01 00 00 48 01 00 00 58 01
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 80
+PTR : 02FB9364
+VAL : 00000577
+PTR outside file
+VAL inside file
+HEX : 00 37 01 00 00 47 01 00 00 48 01 00 00 58 01 00 00 59 01 00 00 69 01 00 00 6A 01 00 00 7A 01 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 81
+PTR : 02FB93C8
+VAL : 00000588
+PTR outside file
+VAL inside file
+HEX : 59 01 00 00 69 01 00 00 6A 01 00 00 7A 01 00 00 7B 01 00 00 8B 01 00 00 8C 01 00 00 9C 01 00 00
+ASCII : Y.
+SJIS : 'Y\x01'
+
+------------------------------------------------------------
+ENTRY 82
+PTR : 02FB9490
+VAL : 00000599
+PTR outside file
+VAL inside file
+HEX : 01 00 00 8B 01 00 00 8C 01 00 00 9C 01 00 00 9D 01 00 00 AD 01 00 00 AE 01 00 00 BE 01 00 00 BF
+ASCII : .
+SJIS : '\x01'
+
+------------------------------------------------------------
+ENTRY 83
+PTR : 02FB94F4
+VAL : 000005AA
+PTR outside file
+VAL inside file
+HEX : 00 00 AD 01 00 00 AE 01 00 00 BE 01 00 00 BF 01 00 00 CF 01 00 00 D0 01 00 00 E0 01 00 00 E1 01
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 84
+PTR : 02FB9558
+VAL : 000005BB
+PTR outside file
+VAL inside file
+HEX : 00 CF 01 00 00 D0 01 00 00 E0 01 00 00 E1 01 00 00 F1 01 00 00 F2 01 00 00 02 02 00 00 03 02 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 85
+PTR : 02FB95BC
+VAL : 000005CC
+PTR outside file
+VAL inside file
+HEX : F1 01 00 00 F2 01 00 00 02 02 00 00 03 02 00 00 13 02 00 00 14 02 00 00 24 02 00 00 25 02 00 00
+ASCII : ..
+
+------------------------------------------------------------
+ENTRY 86
+PTR : 02FB9620
+VAL : 000005DD
+PTR outside file
+VAL inside file
+HEX : 02 00 00 14 02 00 00 24 02 00 00 25 02 00 00 35 02 00 00 36 02 00 00 46 02 00 00 47 02 00 00 57
+ASCII : .
+SJIS : '\x02'
+
+------------------------------------------------------------
+ENTRY 87
+PTR : 02FB9684
+VAL : 000005EE
+PTR outside file
+VAL inside file
+HEX : 00 00 36 02 00 00 46 02 00 00 47 02 00 00 57 02 00 00 58 02 00 00 68 02 00 00 69 02 00 00 79 02
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 88
+PTR : 02FB96E8
+VAL : 000005FF
+PTR outside file
+VAL inside file
+HEX : 00 58 02 00 00 68 02 00 00 69 02 00 00 79 02 00 00 7A 02 00 00 8A 02 00 00 8B 02 00 00 9B 02 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 89
+PTR : 02FB974C
+VAL : 00000610
+PTR outside file
+VAL inside file
+HEX : 7A 02 00 00 8A 02 00 00 8B 02 00 00 9B 02 00 00 9C 02 00 00 AC 02 00 00 AD 02 00 00 BD 02 00 00
+ASCII : z.
+SJIS : 'z\x02'
+
+------------------------------------------------------------
+ENTRY 90
+PTR : 02FB97B0
+VAL : 00000621
+PTR outside file
+VAL inside file
+HEX : 02 00 00 AC 02 00 00 AD 02 00 00 BD 02 00 00 BE 02 00 00 CE 02 00 00 CF 02 00 00 DF 02 00 00 E0
+ASCII : .
+SJIS : '\x02'
+
+------------------------------------------------------------
+ENTRY 91
+PTR : 02FB9878
+VAL : 00000632
+PTR outside file
+VAL inside file
+HEX : 00 00 CE 02 00 00 CF 02 00 00 DF 02 00 00 E0 02 00 00 F0 02 00 00 F1 02 00 00 01 03 00 00 02 03
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 92
+PTR : 02FB9C60
+VAL : 00000643
+PTR outside file
+VAL inside file
+HEX : 00 F0 02 00 00 F1 02 00 00 01 03 00 00 02 03 00 00 12 03 00 00 13 03 00 00 23 03 00 00 24 03 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 93
+PTR : 02FBDAE0
+VAL : 00000654
+PTR outside file
+VAL inside file
+HEX : 12 03 00 00 13 03 00 00 23 03 00 00 24 03 00 00 34 03 00 00 35 03 00 00 45 03 00 00 46 03 00 00
+ASCII : ..
+SJIS : '\x12\x03'
+
+------------------------------------------------------------
+ENTRY 94
+PTR : 02FBDEC8
+VAL : 00000665
+PTR outside file
+VAL inside file
+HEX : 03 00 00 35 03 00 00 45 03 00 00 46 03 00 00 56 03 00 00 57 03 00 00 67 03 00 00 68 03 00 00 78
+ASCII : .
+SJIS : '\x03'
+
+------------------------------------------------------------
+ENTRY 95
+PTR : 02FBDF2C
+VAL : 00000676
+PTR outside file
+VAL inside file
+HEX : 00 00 57 03 00 00 67 03 00 00 68 03 00 00 78 03 00 00 79 03 00 00 89 03 00 00 8A 03 00 00 9A 03
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 96
+PTR : 02FBE2B0
+VAL : 00000687
+PTR outside file
+VAL inside file
+HEX : 00 79 03 00 00 89 03 00 00 8A 03 00 00 9A 03 00 00 9B 03 00 00 AB 03 00 00 AC 03 00 00 BC 03 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 97
+PTR : 02FBE698
+VAL : 00000698
+PTR outside file
+VAL inside file
+HEX : 9B 03 00 00 AB 03 00 00 AC 03 00 00 BC 03 00 00 BD 03 00 00 CD 03 00 00 CE 03 00 00 DE 03 00 00
+ASCII : ..
+
+------------------------------------------------------------
+ENTRY 98
+PTR : 02FBE6FC
+VAL : 000006A9
+PTR outside file
+VAL inside file
+HEX : 03 00 00 CD 03 00 00 CE 03 00 00 DE 03 00 00 DF 03 00 00 EF 03 00 00 F0 03 00 00 00 04 00 00 01
+ASCII : .
+SJIS : '\x03'
+
+------------------------------------------------------------
+ENTRY 99
+PTR : 02FBE88C
+VAL : 000006BA
+PTR outside file
+VAL inside file
+HEX : 00 00 EF 03 00 00 F0 03 00 00 00 04 00 00 01 04 00 00 11 04 00 00 12 04 00 00 22 04 00 00 23 04
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 100
+PTR : 02FBE8F0
+VAL : 000006CB
+PTR outside file
+VAL inside file
+HEX : 00 11 04 00 00 12 04 00 00 22 04 00 00 23 04 00 00 33 04 00 00 34 04 00 00 44 04 00 00 45 04 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 101
+PTR : 02FBEA80
+VAL : 000006DC
+PTR outside file
+VAL inside file
+HEX : 33 04 00 00 34 04 00 00 44 04 00 00 45 04 00 00 55 04 00 00 56 04 00 00 66 04 00 00 67 04 00 00
+ASCII : 3.
+SJIS : '3\x04'
+
+------------------------------------------------------------
+ENTRY 102
+PTR : 02FBEAE4
+VAL : 000006ED
+PTR outside file
+VAL inside file
+HEX : 04 00 00 56 04 00 00 66 04 00 00 67 04 00 00 77 04 00 00 78 04 00 00 88 04 00 00 89 04 00 00 99
+ASCII : .
+SJIS : '\x04'
+
+------------------------------------------------------------
+ENTRY 103
+PTR : 02FBEE68
+VAL : 000006FE
+PTR outside file
+VAL inside file
+HEX : 00 00 78 04 00 00 88 04 00 00 89 04 00 00 99 04 00 00 9A 04 00 00 AA 04 00 00 AB 04 00 00 BB 04
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 104
+PTR : 02FBF250
+VAL : 00000721
+PTR outside file
+VAL inside file
+HEX : 04 00 00 CC 04 00 00 CD 04 00 00 DD 04 00 00 DE 04 00 00 EE 04 00 00 EF 04 00 00 FF 04 00 00 00
+ASCII : .
+SJIS : '\x04'
+
+------------------------------------------------------------
+ENTRY 105
+PTR : 02FBF638
+VAL : 00000732
+PTR outside file
+VAL inside file
+HEX : 00 00 EE 04 00 00 EF 04 00 00 FF 04 00 00 00 05 00 00 10 05 00 00 11 05 00 00 21 05 00 00 22 05
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 106
+PTR : 02FBF69C
+VAL : 00000743
+PTR outside file
+VAL inside file
+HEX : 00 10 05 00 00 11 05 00 00 21 05 00 00 22 05 00 00 32 05 00 00 33 05 00 00 43 05 00 00 44 05 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 107
+PTR : 02FBFA20
+VAL : 00000754
+PTR outside file
+VAL inside file
+HEX : 32 05 00 00 33 05 00 00 43 05 00 00 44 05 00 00 54 05 00 00 55 05 00 00 65 05 00 00 66 05 00 00
+ASCII : 2.
+SJIS : '2\x05'
+
+------------------------------------------------------------
+ENTRY 108
+PTR : 02FBFE08
+VAL : 00000765
+PTR outside file
+VAL inside file
+HEX : 05 00 00 55 05 00 00 65 05 00 00 66 05 00 00 76 05 00 00 77 05 00 00 87 05 00 00 88 05 00 00 98
+ASCII : .
+SJIS : '\x05'
+
+------------------------------------------------------------
+ENTRY 109
+PTR : 02FC01F0
+VAL : 00000776
+PTR outside file
+VAL inside file
+HEX : 00 00 77 05 00 00 87 05 00 00 88 05 00 00 98 05 00 00 99 05 00 00 A9 05 00 00 AA 05 00 00 BA 05
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 110
+PTR : 02FC05D8
+VAL : 00000787
+PTR outside file
+VAL inside file
+HEX : 00 99 05 00 00 A9 05 00 00 AA 05 00 00 BA 05 00 00 BB 05 00 00 CB 05 00 00 CC 05 00 00 DC 05 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 111
+PTR : 02FC09C0
+VAL : 00000798
+PTR outside file
+VAL inside file
+HEX : BB 05 00 00 CB 05 00 00 CC 05 00 00 DC 05 00 00 DD 05 00 00 ED 05 00 00 EE 05 00 00 FE 05 00 00
+ASCII : ..
+SJIS : 'ｻ\x05'
+
+------------------------------------------------------------
+ENTRY 112
+PTR : 02FC0DA8
+VAL : 000007A9
+PTR outside file
+VAL inside file
+HEX : 05 00 00 ED 05 00 00 EE 05 00 00 FE 05 00 00 FF 05 00 00 0F 06 00 00 10 06 00 00 20 06 00 00 21
+ASCII : .
+SJIS : '\x05'
+
+------------------------------------------------------------
+ENTRY 113
+PTR : 02FC1190
+VAL : 000007BA
+PTR outside file
+VAL inside file
+HEX : 00 00 0F 06 00 00 10 06 00 00 20 06 00 00 21 06 00 00 31 06 00 00 32 06 00 00 42 06 00 00 43 06
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 114
+PTR : 02FC1578
+VAL : 000007CB
+PTR outside file
+VAL inside file
+HEX : 00 31 06 00 00 32 06 00 00 42 06 00 00 43 06 00 00 53 06 00 00 54 06 00 00 64 06 00 00 65 06 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 115
+PTR : 02FC1960
+VAL : 000007EE
+PTR outside file
+VAL inside file
+HEX : 00 00 76 06 00 00 86 06 00 00 87 06 00 00 97 06 00 00 98 06 00 00 A8 06 00 00 A9 06 00 00 B9 06
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 116
+PTR : 02FDFDC0
+VAL : 00000802
+PTR outside file
+VAL inside file
+HEX : 00 00 A8 06 00 00 A9 06 00 00 B9 06 00 00 BA 06 00 00 CA 06 00 00 CB 06 00 00 DB 06 00 00 DC 06
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 117
+PTR : 02FE01A8
+VAL : 00000816
+PTR outside file
+VAL inside file
+HEX : 00 00 CB 06 00 00 DB 06 00 00 DC 06 00 00 EC 06 00 00 ED 06 00 00 FD 06 00 00 FE 06 00 00 20 07
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 118
+PTR : 02FE0590
+VAL : 00000827
+PTR outside file
+VAL inside file
+HEX : 00 ED 06 00 00 FD 06 00 00 FE 06 00 00 20 07 00 00 21 07 00 00 31 07 00 00 32 07 00 00 42 07 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 119
+PTR : 02FF8460
+VAL : 00000838
+PTR outside file
+VAL inside file
+HEX : 21 07 00 00 31 07 00 00 32 07 00 00 42 07 00 00 43 07 00 00 53 07 00 00 54 07 00 00 64 07 00 00
+ASCII : !.
+SJIS : '!\x07'
+
+------------------------------------------------------------
+ENTRY 120
+PTR : 02FF84C4
+VAL : 00000849
+PTR outside file
+VAL inside file
+HEX : 07 00 00 53 07 00 00 54 07 00 00 64 07 00 00 65 07 00 00 75 07 00 00 76 07 00 00 86 07 00 00 87
+ASCII : .
+SJIS : '\x07'
+
+------------------------------------------------------------
+ENTRY 121
+PTR : 02FF8848
+VAL : 0000085A
+PTR outside file
+VAL inside file
+HEX : 00 00 75 07 00 00 76 07 00 00 86 07 00 00 87 07 00 00 97 07 00 00 98 07 00 00 A8 07 00 00 A9 07
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 122
+PTR : 02FF88AC
+VAL : 0000086B
+PTR outside file
+VAL inside file
+HEX : 00 97 07 00 00 98 07 00 00 A8 07 00 00 A9 07 00 00 B9 07 00 00 BA 07 00 00 CA 07 00 00 CB 07 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 123
+PTR : 02FF8C30
+VAL : 0000087C
+PTR outside file
+VAL inside file
+HEX : B9 07 00 00 BA 07 00 00 CA 07 00 00 CB 07 00 00 ED 07 00 00 EE 07 00 00 01 08 00 00 02 08 00 00
+ASCII : ..
+SJIS : 'ｹ\x07'
+
+------------------------------------------------------------
+ENTRY 124
+PTR : 02FF8C94
+VAL : 0000088D
+PTR outside file
+VAL inside file
+HEX : 07 00 00 EE 07 00 00 01 08 00 00 02 08 00 00 15 08 00 00 16 08 00 00 26 08 00 00 27 08 00 00 37
+ASCII : .
+SJIS : '\x07'
+
+------------------------------------------------------------
+ENTRY 125
+PTR : 02FF9018
+VAL : 0000089E
+PTR outside file
+VAL inside file
+HEX : 00 00 16 08 00 00 26 08 00 00 27 08 00 00 37 08 00 00 38 08 00 00 48 08 00 00 49 08 00 00 59 08
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 126
+PTR : 02FF907C
+VAL : 000008AF
+PTR outside file
+VAL inside file
+HEX : 00 38 08 00 00 48 08 00 00 49 08 00 00 59 08 00 00 5A 08 00 00 6A 08 00 00 6B 08 00 00 7B 08 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 127
+PTR : 02FF9400
+VAL : 000008C0
+PTR outside file
+VAL inside file
+HEX : 5A 08 00 00 6A 08 00 00 6B 08 00 00 7B 08 00 00 7C 08 00 00 8C 08 00 00 8D 08 00 00 9D 08 00 00
+ASCII : Z.
+SJIS : 'Z\x08'
+
+------------------------------------------------------------
+ENTRY 128
+PTR : 02FF9464
+VAL : 000008D1
+PTR outside file
+VAL inside file
+HEX : 08 00 00 8C 08 00 00 8D 08 00 00 9D 08 00 00 9E 08 00 00 AE 08 00 00 AF 08 00 00 BF 08 00 00 C0
+ASCII : .
+SJIS : '\x08'
+
+------------------------------------------------------------
+ENTRY 129
+PTR : 02FF97E8
+VAL : 000008E2
+PTR outside file
+VAL inside file
+HEX : 00 00 AE 08 00 00 AF 08 00 00 BF 08 00 00 C0 08 00 00 D0 08 00 00 D1 08 00 00 E1 08 00 00 E2 08
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 130
+PTR : 02FF984C
+VAL : 000008F3
+PTR outside file
+VAL inside file
+HEX : 00 D0 08 00 00 D1 08 00 00 E1 08 00 00 E2 08 00 00 F2 08 00 00 F3 08 00 00 03 09 00 00 04 09 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 131
+PTR : 02FF9BD0
+VAL : 00000904
+PTR outside file
+VAL inside file
+HEX : F2 08 00 00 F3 08 00 00 03 09 00 00 04 09 00 00 17 09 00 00 18 09 00 00 28 09 00 00 29 09 00 00
+ASCII : ..
+
+------------------------------------------------------------
+ENTRY 132
+PTR : 0308AC20
+VAL : 00000918
+PTR outside file
+VAL inside file
+HEX : 18 09 00 00 28 09 00 00 29 09 00 00 39 09 00 00 3A 09 00 00 4A 09 00 00 4B 09 00 00 5B 09 00 00
+ASCII : ..
+SJIS : '\x18\t'
+
+------------------------------------------------------------
+ENTRY 133
+PTR : 0308B3F0
+VAL : 00000929
+PTR outside file
+VAL inside file
+HEX : 09 00 00 4A 09 00 00 4B 09 00 00 5B 09 00 00 5C 09 00 00 6C 09 00 00 6D 09 00 00 7D 09 00 00 7E
+ASCII : .
+SJIS : '\t'
+
+------------------------------------------------------------
+ENTRY 134
+PTR : 030A36A8
+VAL : 0000093A
+PTR outside file
+VAL inside file
+HEX : 00 00 6C 09 00 00 6D 09 00 00 7D 09 00 00 7E 09 00 00 8E 09 00 00 8F 09 00 00 A2 09 00 00 A3 09
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 135
+PTR : 030A3A90
+VAL : 0000094B
+PTR outside file
+VAL inside file
+HEX : 00 8E 09 00 00 8F 09 00 00 A2 09 00 00 A3 09 00 00 B3 09 00 00 B4 09 00 00 C4 09 00 00 C5 09 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 136
+PTR : 0311D3E0
+VAL : 0000095C
+PTR outside file
+VAL inside file
+HEX : B3 09 00 00 B4 09 00 00 C4 09 00 00 C5 09 00 00 D5 09 00 00 D6 09 00 00 E6 09 00 00 E7 09 00 00
+ASCII : ..
+SJIS : 'ｳ\t'
+
+------------------------------------------------------------
+ENTRY 137
+PTR : 0311D7C8
+VAL : 0000096D
+PTR outside file
+VAL inside file
+HEX : 09 00 00 D6 09 00 00 E6 09 00 00 E7 09 00 00 F7 09 00 00 F8 09 00 00 08 0A 00 00 09 0A 00 00 19
+ASCII : .
+SJIS : '\t'
+
+------------------------------------------------------------
+ENTRY 138
+PTR : 0311DBB0
+VAL : 0000097E
+PTR outside file
+VAL inside file
+HEX : 00 00 F8 09 00 00 08 0A 00 00 09 0A 00 00 19 0A 00 00 1A 0A 00 00 2D 0A 00 00 2E 0A 00 00 41 0A
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 139
+PTR : 0311DF98
+VAL : 0000098F
+PTR outside file
+VAL inside file
+HEX : 00 1A 0A 00 00 2D 0A 00 00 2E 0A 00 00 41 0A 00 00 42 0A 00 00 55 0A 00 00 56 0A 00 00 69 0A 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 140
+PTR : 0314E120
+VAL : 000009A3
+PTR outside file
+VAL inside file
+HEX : 00 55 0A 00 00 56 0A 00 00 69 0A 00 00 6A 0A 00 00 7D 0A 00 00 7E 0A 00 00 91 0A 00 00 92 0A 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 141
+PTR : 03150894
+VAL : 000009B4
+PTR outside file
+VAL inside file
+HEX : 7D 0A 00 00 7E 0A 00 00 91 0A 00 00 92 0A 00 00 A5 0A 00 00 A6 0A 00 00 B9 0A 00 00 43 0A 00 32
+ASCII : }.
+SJIS : '}\n'
+
+------------------------------------------------------------
+ENTRY 142
+PTR : 031508F8
+VAL : 000009C5
+PTR outside file
+VAL inside file
+HEX : 0A 00 00 A6 0A 00 00 B9 0A 00 00 43 0A 00 32 4C 04 01 00 01 FF 43 1E 00 32 01 01 44 3E 00 32 00
+ASCII : .
+SJIS : '\n'
+
+------------------------------------------------------------
+ENTRY 143
+PTR : 0315095C
+VAL : 000009D6
+PTR outside file
+VAL inside file
+HEX : 01 00 01 FF 43 1E 00 32 01 01 44 3E 00 32 00 01 4C 04 44 3F 00 32 01 07 43 0A 00 32 4C 04 01 01
+ASCII : .
+SJIS : '\x01'
+
+------------------------------------------------------------
+ENTRY 144
+PTR : 031509C0
+VAL : 000009E7
+PTR outside file
+VAL inside file
+HEX : 04 44 3F 00 32 01 07 43 0A 00 32 4C 04 01 01 01 FF 43 1E 00 32 01 01 44 3E 00 32 00 02 4C 04 44
+ASCII : .D?
+SJIS : '\x04D?'
+
+------------------------------------------------------------
+ENTRY 145
+PTR : 03150A24
+VAL : 000009F8
+PTR outside file
+VAL inside file
+HEX : 43 1E 00 32 01 01 44 3E 00 32 00 02 4C 04 44 3F 00 32 02 07 43 0A 00 32 56 04 01 00 01 FF 43 1E
+ASCII : C.
+SJIS : 'C\x1e'
+
+------------------------------------------------------------
+ENTRY 146
+PTR : 03150A88
+VAL : 00000A09
+PTR outside file
+VAL inside file
+HEX : 32 02 07 43 0A 00 32 56 04 01 00 01 FF 43 1E 00 32 01 01 07 43 0A 00 32 56 04 01 01 01 FF 43 1E
+ASCII : 2..C.
+SJIS : '2\x02\x07C\n'
+
+------------------------------------------------------------
+ENTRY 147
+PTR : 03152F40
+VAL : 00000A1A
+PTR outside file
+VAL inside file
+HEX : 01 01 07 43 0A 00 32 56 04 01 01 01 FF 43 1E 00 32 01 01 07 43 0A 00 32 56 04 01 02 01 FF 43 1E
+ASCII : ...C.
+SJIS : '\x01\x01\x07C\n'
+
+------------------------------------------------------------
+ENTRY 148
+PTR : 03152FA4
+VAL : 00000A2E
+PTR outside file
+VAL inside file
+HEX : 43 0A 00 32 56 04 01 02 01 FF 43 1E 00 32 01 01 07 43 0A 00 32 60 04 01 00 01 FF 43 1E 00 32 01
+ASCII : C.
+SJIS : 'C\n'
+
+------------------------------------------------------------
+ENTRY 149
+PTR : 03153008
+VAL : 00000A42
+PTR outside file
+VAL inside file
+HEX : 32 60 04 01 00 01 FF 43 1E 00 32 01 01 07 43 0A 00 32 60 04 01 00 01 FF 43 1E 00 32 01 28 07 43
+ASCII : 2`..
+SJIS : '2`\x04\x01'
+
+------------------------------------------------------------
+ENTRY 150
+PTR : 0315306C
+VAL : 00000A56
+PTR outside file
+VAL inside file
+HEX : 01 00 01 FF 43 1E 00 32 01 28 07 43 0A 00 32 60 04 01 00 01 FF 43 1E 00 32 01 E2 07 43 0A 00 32
+ASCII : .
+SJIS : '\x01'
+
+------------------------------------------------------------
+ENTRY 151
+PTR : 031530D0
+VAL : 00000A6A
+PTR outside file
+VAL inside file
+HEX : FF 43 1E 00 32 01 E2 07 43 0A 00 32 60 04 01 00 01 FF 43 1E 00 32 01 1E 07 43 0A 00 32 60 04 01
+ASCII : .C.
+
+------------------------------------------------------------
+ENTRY 152
+PTR : 03153134
+VAL : 00000A7E
+PTR outside file
+VAL inside file
+HEX : 00 32 01 1E 07 43 0A 00 32 60 04 01 01 01 FF 43 1E 00 32 01 01 44 3E 00 32 00 02 60 04 44 3F 00
+ASCII : 
+
+------------------------------------------------------------
+ENTRY 153
+PTR : 03153198
+VAL : 00000A92
+PTR outside file
+VAL inside file
+HEX : 01 44 3E 00 32 00 02 60 04 44 3F 00 32 02 07 43 0A 00 32 6A 04 01 00 01 FF 43 1E 00 32 01 01 07
+ASCII : .D>
+SJIS : '\x01D>'
+
+------------------------------------------------------------
+ENTRY 154
+PTR : 031531FC
+VAL : 00000AA6
+PTR outside file
+VAL inside file
+HEX : 04 01 00 01 FF 43 1E 00 32 01 01 07 43 0A 00 32 6A 04 01 01 01 FF 43 1E 00 32 01 01 07 43 0A 00
+ASCII : ..
+SJIS : '\x04\x01'
+
+============================================================
+ASCII STRING SCAN
+============================================================
+000011AE  2333?333?
+
+============================================================
+SJIS SCAN
+============================================================
+00000258  'ﾘ胤\x02ﾞ\x04'
+00000259  '胤\x02ﾞ\x04'
+00000280  'ﾔ蛸\x023\x05'
+000002B9  '眉\x02ｪ\x05'
+000002C0  'X方\x02ｻ\x05'
+000002C1  '方\x02ｻ\x05'
+000002C8  'ｼ方\x02ﾌ\x05'
+000002C9  '方\x02ﾌ\x05'
+000002D0  ' 油\x02ﾝ\x05'
+000002D1  '油\x02ﾝ\x05'
+000002F0  'ｰ練\x02!\x06'
+00000331  '踴\x02ｩ\x06'
+00000339  '顯\x02ｺ\x06'
+00000341  '顯\x02ﾋ\x06'
+00000468  'ﾈﾗ\x11\x03m\t'
+00000470  'ｰﾛ\x11\x03~\t'
