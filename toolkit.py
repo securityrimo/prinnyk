@@ -22,6 +22,12 @@ from core.start_runtime import (
     StartRuntimeError,
     run_extract as run_start_extract,
 )
+from core.system_unpack import (
+    DEFAULT_MANIFEST as DEFAULT_SYSTEM_MANIFEST,
+    DEFAULT_OUTPUT as DEFAULT_SYSTEM_OUTPUT,
+    DEFAULT_SYSTEM,
+    run_unpack as run_system_unpack,
+)
 
 
 def add_font_paths(
@@ -117,6 +123,49 @@ def build_parser() -> argparse.ArgumentParser:
 
     unpack_start_parser.set_defaults(
         handler=run_unpack_start,
+    )
+
+    unpack_system_parser = commands.add_parser(
+        "unpack-system",
+        help=(
+            "SYSTEM.DAT에서 start.lzs를 추출하고 "
+            "start.dat으로 압축 해제합니다."
+        ),
+    )
+    unpack_system_parser.add_argument(
+        "--system",
+        type=Path,
+        default=DEFAULT_SYSTEM,
+        help=(
+            "SYSTEM.DAT 경로 "
+            f"(기본값: {DEFAULT_SYSTEM})"
+        ),
+    )
+    unpack_system_parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_SYSTEM_OUTPUT,
+        help=(
+            "start.lzs/start.dat 출력 디렉터리 "
+            f"(기본값: {DEFAULT_SYSTEM_OUTPUT})"
+        ),
+    )
+    unpack_system_parser.add_argument(
+        "--manifest",
+        type=Path,
+        default=DEFAULT_SYSTEM_MANIFEST,
+        help=(
+            "manifest JSON 경로 "
+            f"(기본값: {DEFAULT_SYSTEM_MANIFEST})"
+        ),
+    )
+    unpack_system_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="기존 출력이 다를 때 덮어씁니다.",
+    )
+    unpack_system_parser.set_defaults(
+        handler=run_unpack_system,
     )
 
     font_parser = commands.add_parser(
@@ -248,6 +297,14 @@ def run_unpack_start(
     args: argparse.Namespace,
 ) -> int:
     return run_start_extract(
+        args
+    )
+
+
+def run_unpack_system(
+    args: argparse.Namespace,
+) -> int:
+    return run_system_unpack(
         args
     )
 
