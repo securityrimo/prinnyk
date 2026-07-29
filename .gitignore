@@ -20,3 +20,6 @@ reports/
 # Secrets
 token
 .env
+
+# Installer backups
+.unpack_system_backup_*/
