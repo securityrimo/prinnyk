@@ -19,6 +19,42 @@ if __name__ == "__main__":
         )
 # END FONT CLI BRIDGE
 
+# BEGIN TEXT CLI BRIDGE
+if __name__ == "__main__":
+    import sys as _text_cli_sys
+
+    if (
+        len(_text_cli_sys.argv) >= 2
+        and _text_cli_sys.argv[1] == "text"
+    ):
+        from text_cli import main as _text_cli_main
+
+        raise SystemExit(
+            _text_cli_main(
+                _text_cli_sys.argv[2:]
+            )
+        )
+# END TEXT CLI BRIDGE
+
+# BEGIN ASSETS CLI BRIDGE
+if __name__ == "__main__":
+    import sys as _assets_cli_sys
+
+    if (
+        len(_assets_cli_sys.argv) >= 2
+        and _assets_cli_sys.argv[1] == "assets"
+    ):
+        from assets_cli import main as _assets_cli_main
+
+        raise SystemExit(
+            _assets_cli_main(
+                _assets_cli_sys.argv[2:]
+            )
+        )
+# END ASSETS CLI BRIDGE
+
+
+
 
 import argparse
 import json

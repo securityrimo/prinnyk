@@ -23,3 +23,19 @@ token
 
 # Installer backups
 .unpack_system_backup_*/
+game.iso
+game2.iso
+output/
+build/
+dist/
+PSP_GAME/
+*.run
+*.zip
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.psp_toolkit_update_backup_*/
+.prinny_stage1_fix_backup_*/
+.prinny_stage1_v6_*_backup_*/
+.policy_checkpoint_backup_*/
+.checkpoint_repair_backup_*/

@@ -1,0 +1,217 @@
+{
+  "format": "prinny_stage1_structural_repairs_v1",
+  "description": "스크린샷에서 확인된 14개 대사의 문구는 바꾸지 않고, 검증된 V4 최종 패치 바이트를 동일 위치에 다시 기록해 코드맵/종료바이트/패딩 불일치를 복구한다.",
+  "policy": {
+    "dialogue_text_changes": false,
+    "translator_voice_preserved": true,
+    "physical_patch_count": 13,
+    "logical_string_count": 14
+  },
+  "logical_order": [
+    "TXT-0E1C5EBE1BD4",
+    "TXT-BE520F2AA761",
+    "TXT-C09DD74C12BA",
+    "TXT-D287E7FC1B90",
+    "TXT-19DA872E02F7",
+    "TXT-56FFB8CE5691",
+    "TXT-0F346321936F",
+    "TXT-7E9DB3B70C57",
+    "TXT-6F5F54FE7516",
+    "TXT-458610B1D784",
+    "TXT-C7F864C06E43",
+    "TXT-146237588658",
+    "TXT-79905A084470",
+    "TXT-8CD4A4D0BBAD"
+  ],
+  "patches": [
+    {
+      "kind": "parent_reflow",
+      "resource": "Demo00.dat",
+      "offset": "0x1E04",
+      "span": 105,
+      "payload_hex": "8B E3 92 6A 81 63 20 8B 52 8E F4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 92 E6 8E 47 91 E5 8F DC E0 95 8E F4 2E 92 E6 8E 47 91 E5 8F DC E0 95 8E F4 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-C7F864C06E43",
+        "TXT-146237588658"
+      ],
+      "translations": {
+        "TXT-C7F864C06E43": "이젠… 싫어",
+        "TXT-146237588658": "도망치고싶어.도망치고싶어"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0x2014",
+      "span": 35,
+      "payload_hex": "8F FC 91 4A E7 48 2C 90 4C 8E D4 94 60 E3 4A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-79905A084470"
+      ],
+      "translations": {
+        "TXT-79905A084470": "시공의,틈새바람"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0x2037",
+      "span": 35,
+      "payload_hex": "91 F3 E0 75 20 8B E6 8F F2 20 94 BD 95 D4 8F 50 8D F0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-8CD4A4D0BBAD"
+      ],
+      "translations": {
+        "TXT-8CD4A4D0BBAD": "기분 좋은 법입니다"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0x9D60",
+      "span": 24,
+      "payload_hex": "92 D7 7E 20 97 F1 8C 5F 89 F5 7E 2C 00 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-0E1C5EBE1BD4"
+      ],
+      "translations": {
+        "TXT-0E1C5EBE1BD4": "내~ 스위츠~,"
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0x9D83",
+      "span": 30,
+      "payload_hex": "92 49 7E 8B F0 20 8D F0 20 90 6B 95 53 90 E1 8E F4 8E F4 8E F4 21 3F 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-BE520F2AA761"
+      ],
+      "translations": {
+        "TXT-BE520F2AA761": "누~가 다 처먹었어어어!?"
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0x9F70",
+      "span": 35,
+      "payload_hex": "8B E6 8D EF 2C 92 D7 91 4D 8D EF 8F 52 93 F8 8B DF 95 74 92 F1 94 F6 90 E5 E3 C4 94 F7 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-C09DD74C12BA"
+      ],
+      "translations": {
+        "TXT-C09DD74C12BA": "좋아,내일아침까지항간에화제인"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA288",
+      "span": 22,
+      "payload_hex": "81 63 81 63 8E E3 8F DC 20 90 61 8C 4D 8C D1 94 5B 7E 3F 00 00 00",
+      "logical_ids": [
+        "TXT-D287E7FC1B90"
+      ],
+      "translations": {
+        "TXT-D287E7FC1B90": "……라고 생각하죠~?"
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA2AB",
+      "span": 34,
+      "payload_hex": "8A B4 90 A1 2C 20 8E DF 91 65 20 96 5A 20 93 C6 8F DC 81 5C 81 5C 2E 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-19DA872E02F7"
+      ],
+      "translations": {
+        "TXT-19DA872E02F7": "후훙, 그럴 줄 알고――."
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA390",
+      "span": 35,
+      "payload_hex": "93 C6 8F AF 8B DF 3F 91 F3 8F F1 8F F2 92 D7 91 4D 8D EF 8F 52 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-56FFB8CE5691"
+      ],
+      "translations": {
+        "TXT-56FFB8CE5691": "알았지?기한은내일아침"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA7B0",
+      "span": 22,
+      "payload_hex": "8D D1 96 B1 93 C5 92 E6 20 91 D8 90 A3 94 F6 8E FB 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-0F346321936F"
+      ],
+      "translations": {
+        "TXT-0F346321936F": "우리들도 구천에서"
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA7D3",
+      "span": 18,
+      "payload_hex": "91 B3 90 D5 8C D1 8F DC 20 91 E0 94 D2 8D F0 21 21 00",
+      "logical_ids": [
+        "TXT-7E9DB3B70C57"
+      ],
+      "translations": {
+        "TXT-7E9DB3B70C57": "응원하고 있슴다!!"
+      },
+      "source": "fit_patch_plan_977"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA93C",
+      "span": 35,
+      "payload_hex": "8D DF E3 59 36 98 4C 94 F6 8C E3 8E F3 8F DB 8D 4A 8F F1 8D 4A 8D DF 94 F6 8B 49 8E FB 00 00 00 00 00 00",
+      "logical_ids": [
+        "TXT-6F5F54FE7516"
+      ],
+      "translations": {
+        "TXT-6F5F54FE7516": "마계6곳에사는흉악한악마에게서"
+      },
+      "source": "csv_revision_977_v4"
+    },
+    {
+      "kind": "ordinary",
+      "resource": "Demo00.dat",
+      "offset": "0xA95F",
+      "span": 34,
+      "payload_hex": "94 F0 94 D8 8C D2 20 93 73 94 F6 20 8B 71 8F F7 20 96 63 91 D3 8B F0 20 91 E0 94 D2 8D F0 2E 00 00 00",
+      "logical_ids": [
+        "TXT-458610B1D784"
+      ],
+      "translations": {
+        "TXT-458610B1D784": "재료를 손에 넣을 필요가 있슴다."
+      },
+      "source": "fit_patch_plan_977"
+    }
+  ],
+  "unresolved_ui_groups": [
+    "난이도 선택 화면",
+    "튜토리얼 팝업·튜토리얼상 메뉴",
+    "스테이지 결과·HUD"
+  ]
+}

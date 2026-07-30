@@ -1,0 +1,21 @@
+{
+  "format": "psp_toolkit_storage_v3",
+  "updated_at": "2026-07-30T17:29:40.171356+00:00",
+  "project_root": "/home/hyuk/PrinnyReverseToolkit",
+  "detected_by": "requested",
+  "data_root": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work",
+  "inputs_dir": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/inputs",
+  "run_dir": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/workspace/psp_toolkit",
+  "report_dir": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/reports/psp_toolkit",
+  "qa_report_dir": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/reports/prinny_qa",
+  "temp_dir": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/tmp",
+  "game2_iso": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/inputs/game2.iso",
+  "free_bytes": 476476559360,
+  "migration": {
+    "status": "game2_missing",
+    "expected": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/PSP_Localization_Work/inputs/game2.iso"
+  },
+  "link": {
+    "status": "not_created"
+  }
+}
