@@ -1,0 +1,24 @@
+{
+  "format": "prinny_patch_checkpoint_manifest_v1",
+  "project": "Prinny 1 Korean patch",
+  "checkpoint": "ordinary terminator layout 977",
+  "status": "pass",
+  "source_audit": {
+    "path": "workspace/reports/csv_revision_ordinary_terminator_layout_audit_977.json",
+    "sha1": "cfb0a2964cc48b9a952b5b8870e88495b2c2ad7f"
+  },
+  "corrected_audit": {
+    "path": "workspace/reports/csv_revision_ordinary_terminator_layout_audit_977_v2.json",
+    "sha1": "5f710e150ae746d92a24e9bbb47c057c01cc25c3"
+  },
+  "failed_plan_report": {
+    "path": "workspace/reports/csv_revision_consolidated_repatch_plan_977.json",
+    "sha1": "ee7f17df34b571dd4d4aae9396de1e7d0448c785"
+  },
+  "ordinary_record_count": 1204,
+  "internal_nul_count": 651,
+  "external_nul_count": 553,
+  "previous_failure_count": 489,
+  "additional_external_nul_count": 64,
+  "next_gate": "Rebuild the consolidated repatch plan using each verified terminator layout."
+}
