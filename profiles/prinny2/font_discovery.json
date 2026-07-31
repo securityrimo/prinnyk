@@ -1,0 +1,67 @@
+{
+  "format": "prinny2_font_discovery_v1",
+  "location_status": "nonstandard_start_candidates_found",
+  "exact_prinny1_names": {
+    "font.fnt": false,
+    "font.txp": false,
+    "jis2ucs.bin": true,
+    "ucs2jis.bin": true
+  },
+  "start_candidates": [
+    {
+      "index": 2,
+      "name": "Character00.dat",
+      "output_name": "Character00.dat",
+      "offset": 1776,
+      "offset_hex": "0x6F0",
+      "size": 45232,
+      "size_hex": "0xB0B0",
+      "sha1": "628279dd8ca512ff5a754aa1b4d77cddc334fa24"
+    },
+    {
+      "index": 19,
+      "name": "jis2ucs.bin",
+      "output_name": "jis2ucs.bin",
+      "offset": 2250112,
+      "offset_hex": "0x225580",
+      "size": 131072,
+      "size_hex": "0x20000",
+      "sha1": "f579e3d6e6ca15e905fcedd84a4562d13e428079"
+    },
+    {
+      "index": 20,
+      "name": "ucs2jis.bin",
+      "output_name": "ucs2jis.bin",
+      "offset": 2381184,
+      "offset_hex": "0x245580",
+      "size": 131072,
+      "size_hex": "0x20000",
+      "sha1": "eb5da8ade9d5af9b137a92faf78ca43e1f79cbc0"
+    },
+    {
+      "index": 21,
+      "name": "Font.fnt3",
+      "output_name": "Font.fnt3",
+      "offset": 2512256,
+      "offset_hex": "0x265580",
+      "size": 196624,
+      "size_hex": "0x30010",
+      "sha1": "0fd2bed3907fa6247aaf60037f4b6ce121032842"
+    }
+  ],
+  "system_candidates": [],
+  "search_keywords": [
+    "font",
+    "fnt",
+    "txp",
+    "glyph",
+    "char",
+    "jis",
+    "ucs",
+    "moji",
+    "text"
+  ],
+  "blocking": false,
+  "next_action": "후보 자원의 헤더·크기·실행 파일 참조를 대조해 실제 폰트와 코드맵 위치를 확정합니다.",
+  "created_at": "2026-07-31T05:19:33+09:00"
+}
