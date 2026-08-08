@@ -339,7 +339,7 @@ details{{border:1px solid var(--line);border-radius:9px;padding:10px;margin:8px 
 </head>
 <body>
 <header>
-<h1>PSP Localization Studio <span class="version">V7.5 Alpha</span></h1>
+<h1>3순위 · PSP Localization Studio <span class="version">V7.5.2 Alpha</span></h1>
 <button id="openMainReport">통합 보고서</button>
 <button id="exportProject">프로젝트 상태 저장</button>
 </header>
@@ -354,14 +354,15 @@ details{{border:1px solid var(--line);border-radius:9px;padding:10px;margin:8px 
 </nav>
 <main>
 <section id="dashboard" class="view active">
+<section class="card wide notice priority-banner"><strong>작업 우선순위:</strong> 1순위 프리니 1 · 2순위 프리니 2 · 3순위 통합툴. 프리니 1의 18개 오류 증거 연결 전까지 프리니 2 신규 묶음과 일반 통합툴 확장을 보류합니다.</section>
 <div class="grid">
-<div class="card"><h3>프리니 1</h3><div class="metric bad" id="p1Issues"></div><p class="muted">미해결 런타임 오류</p></div>
-<div class="card"><h3>프리니 2</h3><div class="metric" id="p2Candidates"></div><p class="muted">우선 번역 후보</p></div>
+<div class="card"><h3>1순위 · 프리니 1</h3><div class="metric bad" id="p1Issues"></div><p class="muted">미해결 런타임 오류</p></div>
+<div class="card"><h3>2순위 · 프리니 2</h3><div class="metric" id="p2Candidates"></div><p class="muted">우선 번역 후보</p></div>
 <div class="card"><h3>번역 묶음 001</h3><div class="metric purple" id="batchCount"></div><p class="muted">문맥·슬롯 연결 완료</p></div>
 <div class="card"><h3>폰트 후보</h3><div class="metric warn" id="fontCount"></div><p class="muted">고우선 후보</p></div>
 <div class="card half"><h3>프리니 1 상태</h3><div id="p1Summary"></div></div>
 <div class="card half"><h3>프리니 2 상태</h3><div id="p2Summary"></div></div>
-<div class="card wide"><h3>현재 결론</h3>
+<div class="card wide"><h3>현재 결론 · 프리니 1 최우선</h3>
 <p>프리니 1은 한글 폰트와 캐릭터 말투는 정상이나, 문장 깨짐·■·한자 잔존·잘림·UI 미번역이 남아 있어 새 패치를 만들 수 없습니다.</p>
 <p>프리니 2는 전용 프로필로 병행 한글화가 가능하며, 번역 후보와 폰트 후보를 확보했습니다. 렌더러 연결과 승인 번역 전에는 ISO를 생성하지 않습니다.</p>
 </div>

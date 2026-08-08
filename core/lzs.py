@@ -14,6 +14,8 @@ Nippon Ichi Software LZS 압축 해제기.
 
 import argparse
 import struct
+from array import array
+from collections import Counter, deque
 from pathlib import Path
 
 
@@ -22,6 +24,187 @@ HEADER_SIZE = 0x10
 
 class NISLZSError(ValueError):
     pass
+
+
+def compress_buffer(
+    raw: bytes,
+    extension: bytes = b"dat\x00",
+    flag: int | None = None,
+) -> bytes:
+    """Encode NIS LZS with deterministic short-window backreferences."""
+    if len(extension) != 4:
+        raise NISLZSError("LZS 확장자 필드는 4바이트여야 합니다.")
+    if flag is None:
+        counts = Counter(raw)
+        flag = min(range(256), key=lambda value: (counts[value], value))
+    if not 0 <= flag <= 0xFF:
+        raise NISLZSError(f"잘못된 LZS 플래그: 0x{flag:X}")
+
+    encoded = bytearray()
+    last_pair = array("i", [-1]) * 0x10000
+    position = 0
+    raw_size = len(raw)
+
+    while position < raw_size:
+        match_length = 0
+        distance = 0
+
+        if position + 1 < raw_size:
+            key = (raw[position] << 8) | raw[position + 1]
+            previous = last_pair[key]
+            candidate_distance = position - previous
+            if previous >= 0 and 1 <= candidate_distance <= 254:
+                maximum = min(255, raw_size - position)
+                length = 0
+                while (
+                    length < maximum
+                    and raw[position + length]
+                    == raw[position + length - candidate_distance]
+                ):
+                    length += 1
+                if length >= 4:
+                    match_length = length
+                    distance = candidate_distance
+
+        consumed = match_length if match_length else 1
+        for update_position in range(position, position + consumed):
+            if update_position + 1 >= raw_size:
+                break
+            key = (raw[update_position] << 8) | raw[update_position + 1]
+            last_pair[key] = update_position
+
+        if match_length:
+            encoded_distance = distance if distance < flag else distance + 1
+            if not 1 <= encoded_distance <= 0xFF or encoded_distance == flag:
+                raise NISLZSError("LZS 역참조 거리를 표현할 수 없습니다.")
+            encoded.extend((flag, encoded_distance, match_length))
+            position += match_length
+            continue
+
+        value = raw[position]
+        encoded.append(value)
+        if value == flag:
+            encoded.append(flag)
+        position += 1
+
+    total_size = HEADER_SIZE + len(encoded)
+    header = bytearray(HEADER_SIZE)
+    header[0:4] = extension
+    struct.pack_into("<I", header, 0x04, raw_size)
+    struct.pack_into("<I", header, 0x08, total_size - 4)
+    struct.pack_into("<I", header, 0x0C, flag)
+    return bytes(header + encoded)
+
+
+def compress_buffer_best(
+    raw: bytes,
+    extension: bytes = b"dat\x00",
+    flag: int | None = None,
+    *,
+    allow_overlap: bool = True,
+) -> bytes:
+    """Encode NIS LZS using the longest match in the 254-byte window.
+
+    ``compress_buffer`` intentionally follows a fast last-pair strategy.  Some
+    retail archives were packed more tightly, so a tiny edit can make that fast
+    stream too large for its fixed NISPACK extent.  This variant evaluates all
+    same-prefix candidates still representable by the format and remains fully
+    deterministic.
+
+    ``allow_overlap=True`` matches the Python decoder but is not safe for the
+    Prinny PSP runtime: the retail/xdelta stream contains no command whose
+    length exceeds its distance.  Use :func:`compress_buffer_runtime_safe` for
+    game resources.
+    """
+    if len(extension) != 4:
+        raise NISLZSError("LZS 확장자 필드는 4바이트여야 합니다.")
+    if flag is None:
+        counts = Counter(raw)
+        flag = min(range(256), key=lambda value: (counts[value], value))
+    if not 0 <= flag <= 0xFF:
+        raise NISLZSError(f"잘못된 LZS 플래그: 0x{flag:X}")
+
+    encoded = bytearray()
+    pair_positions = [deque() for _ in range(0x10000)]
+    position = 0
+    raw_size = len(raw)
+
+    while position < raw_size:
+        match_length = 0
+        distance = 0
+        if position + 1 < raw_size:
+            key = (raw[position] << 8) | raw[position + 1]
+            candidates = pair_positions[key]
+            minimum_position = position - 254
+            while candidates and candidates[0] < minimum_position:
+                candidates.popleft()
+            absolute_maximum = min(255, raw_size - position)
+            for previous in reversed(candidates):
+                candidate_distance = position - previous
+                maximum = (
+                    absolute_maximum
+                    if allow_overlap
+                    else min(absolute_maximum, candidate_distance)
+                )
+                length = 2
+                while (
+                    length < maximum
+                    and raw[position + length]
+                    == raw[position + length - candidate_distance]
+                ):
+                    length += 1
+                if length > match_length:
+                    match_length = length
+                    distance = candidate_distance
+                    if match_length == absolute_maximum:
+                        break
+
+        consumed = match_length if match_length >= 4 else 1
+        for update_position in range(position, position + consumed):
+            if update_position + 1 >= raw_size:
+                break
+            key = (raw[update_position] << 8) | raw[update_position + 1]
+            pair_positions[key].append(update_position)
+
+        if match_length >= 4:
+            encoded_distance = distance if distance < flag else distance + 1
+            if not 1 <= encoded_distance <= 0xFF or encoded_distance == flag:
+                raise NISLZSError("LZS 역참조 거리를 표현할 수 없습니다.")
+            encoded.extend((flag, encoded_distance, match_length))
+            position += match_length
+        else:
+            value = raw[position]
+            encoded.append(value)
+            if value == flag:
+                encoded.append(flag)
+            position += 1
+
+    total_size = HEADER_SIZE + len(encoded)
+    header = bytearray(HEADER_SIZE)
+    header[0:4] = extension
+    struct.pack_into("<I", header, 0x04, raw_size)
+    struct.pack_into("<I", header, 0x08, total_size - 4)
+    struct.pack_into("<I", header, 0x0C, flag)
+    return bytes(header + encoded)
+
+
+def compress_buffer_runtime_safe(
+    raw: bytes,
+    extension: bytes = b"dat\x00",
+    flag: int | None = None,
+) -> bytes:
+    """Encode using longest matches without overlapping backreferences.
+
+    The PSP game's decoder does not reproduce the overlapping-copy semantics
+    accepted by :func:`decompress_buffer`.  Restricting every match to
+    ``length <= distance`` matches all observed retail/xdelta START.LZS tokens.
+    """
+    return compress_buffer_best(
+        raw,
+        extension,
+        flag,
+        allow_overlap=False,
+    )
 
 
 def parse_header(data: bytes) -> dict:

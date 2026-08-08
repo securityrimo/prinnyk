@@ -1,0 +1,39 @@
+{
+  "format": "psp_localization_priority_policy_v1",
+  "version": "7.5.1",
+  "priority_order": [
+    {
+      "rank": 1,
+      "project": "prinny1",
+      "name": "프리니 1",
+      "policy": "active_primary",
+      "goal": "18개 런타임·UI 오류를 실제 자원, 오프셋, 원본 바이트, Expected Write와 연결하고 검증 가능한 수정 ISO를 만든다."
+    },
+    {
+      "rank": 2,
+      "project": "prinny2",
+      "name": "프리니 2",
+      "policy": "maintenance_secondary",
+      "goal": "현재 200개 번역 묶음과 폰트 후보 자료를 보존하며 프리니 1 핵심 이정표 전에는 신규 묶음 확장을 보류한다."
+    },
+    {
+      "rank": 3,
+      "project": "psp_localization_studio",
+      "name": "PSP 한글화 통합툴",
+      "policy": "support_only",
+      "goal": "프리니 1 수정에 필요한 기능만 우선 구현하고 독립 기능 확장은 보류한다."
+    }
+  ],
+  "prinny1_completion_gate": [
+    "18개 오류의 증거 연결",
+    "Expected Write 검증",
+    "실제 변경 영역 1개 이상",
+    "재압축 및 ISO 주입 검증",
+    "PPSSPP 사용자 검수"
+  ],
+  "freeze_rules": {
+    "prinny2_new_translation_batches": true,
+    "studio_non_prinny1_features": true,
+    "automatic_dialogue_rewrite": true
+  }
+}

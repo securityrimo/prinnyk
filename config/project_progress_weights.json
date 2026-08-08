@@ -1,0 +1,44 @@
+{
+  "format": "psp_localization_progress_weights_v1",
+  "version": "7.6.1",
+  "note": "진행률은 시간 예측이 아니라 검증된 마일스톤의 가중 합계입니다.",
+  "project_weights": {
+    "prinny1": 60,
+    "prinny2": 25,
+    "studio": 15
+  },
+  "prinny1": [
+    {"id": "source_profile", "label": "원본 ISO·자원 프로필", "weight": 10},
+    {"id": "translation_font_baseline", "label": "한글 폰트·번역 기반", "weight": 15},
+    {"id": "issue_inventory", "label": "런타임 오류 18건 목록화", "weight": 10},
+    {"id": "evidence_candidate_link", "label": "오류 증거 후보 연결", "weight": 20},
+    {"id": "expected_write_verification", "label": "Expected Write 원본 재검증", "weight": 15},
+    {"id": "patch_build", "label": "구조 수정·재압축·ISO 빌드", "weight": 15},
+    {"id": "runtime_validation", "label": "PPSSPP 실제 화면 검증", "weight": 10},
+    {"id": "release", "label": "최종 패치·문서화", "weight": 5}
+  ],
+  "prinny2": [
+    {"id": "dedicated_profile", "label": "전용 프로필", "weight": 10},
+    {"id": "catalog", "label": "문자열 카탈로그", "weight": 10},
+    {"id": "curation", "label": "후보 정제", "weight": 10},
+    {"id": "context_link", "label": "문맥·슬롯 연결", "weight": 10},
+    {"id": "font_confirmation", "label": "폰트·코드맵 확정", "weight": 10},
+    {"id": "translation", "label": "번역 완료", "weight": 30},
+    {"id": "build", "label": "주입·빌드", "weight": 10},
+    {"id": "runtime_release", "label": "실행 검증·배포", "weight": 10}
+  ],
+  "studio": [
+    {"id": "architecture", "label": "공통 코어·프로필 구조", "weight": 10},
+    {"id": "dashboard", "label": "프로젝트 현황 화면", "weight": 10},
+    {"id": "translation_editor", "label": "번역 편집기", "weight": 15},
+    {"id": "font_lab", "label": "폰트 연구실", "weight": 10},
+    {"id": "qa_gate", "label": "QA·빌드 게이트", "weight": 10},
+    {"id": "plugin_framework", "label": "게임 플러그인 체계", "weight": 15},
+    {"id": "build_integration", "label": "실제 빌드 통합", "weight": 20},
+    {"id": "emulator_validation", "label": "에뮬레이터 자동 검증", "weight": 10}
+  ],
+  "manual_verified": {
+    "prinny1_hangul_rendering": true,
+    "prinny1_character_voice_preserved": true
+  }
+}

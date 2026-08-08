@@ -2,12 +2,15 @@
 
 ## Primary references
 
-Every Korean game-patch project must consult these sources first, in this order:
+Every Korean game-patch project must consult these sources first. The list is
+role-based rather than a precedence order:
 
-1. https://github.com/mcpads/create-kr-patch-template
-2. https://font.emulog.app/#fonts
-3. https://github.com/yazzang-homelab/hancharacter/blob/master/GUIDE.ko.md
-4. https://github.com/yazzang-homelab/hanpatch
+1. https://github.com/mcpads/create-retro-game-kr-patch
+2. https://github.com/mcpads/emucap
+3. https://github.com/mcpads/create-kr-patch-template
+4. https://font.emulog.app/#fonts
+5. https://github.com/yazzang-homelab/hanpatch
+6. https://github.com/yazzang-homelab/hancharacter
 
 They are mandatory starting references, not the only allowable references.
 
@@ -20,6 +23,10 @@ They are mandatory starting references, not the only allowable references.
 - Do not commit copyrighted game images, extracted game files, or generated ISO/CSO images.
 - A successful build is not sufficient: retain runtime evidence and tester observations.
 - A no-op build must not be reported as a successful repair.
+- Re-run every gate from the actual shippable artifact; stale approvals and
+  editable tokens are not build authority.
+- Bind runtime captures to the build hash, emulator version, state/input
+  sequence, and observed scene.
 
 ## Translation preservation
 
@@ -36,7 +43,7 @@ They are mandatory starting references, not the only allowable references.
 
 ## Font policy
 
-- Search Font Share first for a technically compatible and redistributable font.
+- Search Font Share as a discovery source, then verify the original license.
 - Record tile width, tile height, bpp, glyph count, encoding, mapping, source, version, and license.
 - Keep original font input, conversion settings, glyph map, encoding map, and generated font hashes.
 - Never assume visual compatibility from the font name alone; verify the target renderer and runtime output.

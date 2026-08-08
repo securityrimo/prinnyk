@@ -159,6 +159,19 @@ class StartRuntimeArchive:
 
         data = path.read_bytes()
 
+        return cls.from_bytes(
+            data,
+            source=path,
+        )
+
+    @classmethod
+    def from_bytes(
+        cls,
+        data: bytes,
+        source: Path | str = "<memory>",
+    ) -> "StartRuntimeArchive":
+        path = Path(source)
+
         if len(data) < RECORD_SIZE:
             raise StartRuntimeError(
                 "start.dat이 너무 작습니다."

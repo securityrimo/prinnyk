@@ -39,3 +39,18 @@ PSP_GAME/
 .prinny_stage1_v6_*_backup_*/
 .policy_checkpoint_backup_*/
 .checkpoint_repair_backup_*/
+
+# PRINNY_MULTI_AI_IGNORE_V1
+ai_coordination/runs/
+evidence/
+*.iso
+*.cso
+workspace/
+reports/
+build/
+*.log
+.env
+.env.*
+*token*
+*secret*
+*credential*
