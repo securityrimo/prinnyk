@@ -1,4 +1,33 @@
-# 프리니 한국어 패치 v1.0 기술 로그
+# 프리니 1·2 한국어 패치 v1.0 기술 로그
+
+## 2026-08-13 PSP / PS Vita 실행 호환 갱신
+
+기존 프리니 1·2 완성 ISO는 번역된 복호화 ELF를 `EBOOT.BIN`으로 직접 사용해
+PSP 계열 로더에서 `80020148`이 발생할 수 있었습니다
+
+통합 공개본은 각 게임의 동일한 번역 ELF를 다음 두 형식으로 수록합니다
+
+- 기본 경로 `EBOOT.BIN`: PSP 표준 `~PSP` 서명 컨테이너
+- 대체 경로 `BOOT.BIN`: 번역 ELF 원본
+
+두 파일은 원래 ISO 슬롯보다 커질 수 있으므로 새 섹터 경계에 기록하고 ISO9660
+디렉터리 레코드의 LBA·크기를 리틀/빅 엔디언 양쪽에서 갱신했습니다. Primary Volume
+Descriptor의 Volume Space Size도 최종 ISO 섹터 수로 갱신했습니다
+
+| 대상 | 갱신 전 문제 형식 | 통합 공개본 기본 형식 | 완성 ISO SHA-256 |
+|---|---|---|---|
+| 프리니 1 `ULJS00150` | ELF `EBOOT.BIN` | `~PSP` / `ADF305F0` | `85b2c5cf02d91da71231e00d1c6e0aa4a92ea2d1dbf556a63f1fcb4798e6fb27` |
+| 프리니 2 `NPJH50211` | ELF `EBOOT.BIN` | `~PSP` / `ADF305F0` | `46af5247c99bc1a6b8af871289f58f7cfffbf13f9758c00cd25b13a1884e5abf` |
+
+두 게임 모두 `7z t`, ISO 재추출, xdelta 역적용 및 완성 ISO `cmp` 일치를 통과했습니다
+PPSSPP 1.20.4에서는 기본 `EBOOT.BIN`의 `ADF305F0` 복호화 후 각 게임 모듈
+`Disgaea`와 `Prinny2`가 시작되고 그래픽·음원 초기화까지 진행됨을 확인했습니다
+
+PS Vita Adrenaline에서는 기본 경로가 동작하지 않는 환경을 위해 Recovery Menu의
+`Execute BOOT.BIN in UMD/ISO` 대체 경로를 함께 제공합니다
+
+프리니 2 결과 화면의 마지막 일본어 도장은 실제 런타임 sprite 9를 수정해
+`클리어 / 랭크` 두 줄로 교체하고 기존 대각 변환과 팔레트 인덱스를 보존했습니다
 
 ## 1. 릴리스 식별
 
