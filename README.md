@@ -17,7 +17,12 @@
 | 프리니 1 | `ULJS00150` | 500,465,664 | `af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03` |
 | 프리니 2 | `NPJH50211` | 822,214,656 | `4c509ba4d8d2dfcd2635228526fa2955e25ccbb511878861ed31ecfcf2829087` |
 
-릴리스 게시물에서 게임별 xdelta를 받아 사용하십시오
+## 게임별 릴리스
+
+- [프리니 1 한국어 패치 v1.0](https://github.com/sizz1214-lang/prinnyk/releases/tag/v1.0)
+- [프리니 2 한국어 패치 v1.0](https://github.com/sizz1214-lang/prinnyk/releases/tag/prinny2-v1.0)
+
+두 게임은 같은 저장소에서 관리하지만 릴리스 게시물과 xdelta는 각각 분리합니다
 
 ## PSP 및 PS Vita 호환 변경
 
