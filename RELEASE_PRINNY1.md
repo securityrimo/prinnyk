@@ -12,11 +12,10 @@
 
 ## DLC
 
-- `Prinny1_DL0000_KO_v1.2_XDELTA.zip` — 마왕성과 타천사
-- `Prinny1_DL0001_KO_v1.2_XDELTA.zip` — 유령섬의 마로네
-- `Prinny1_DL0002_KO_v1.2_XDELTA.zip` — 연무성의 아사기 인형
+- `Prinny1_DLC_Integrated_KO_v1.2_XDELTA.zip`
+- 포함 DLC: 마왕성과 타천사, 유령섬의 마로네, 연무성의 아사기 인형
 
-DLC는 ISO에 합치지 않고 `ms0:/PSP/GAME/ULJS00150/`에 설치합니다. 세 패치를
-같은 출력 폴더에 누적 적용할 수 있습니다.
+DLC는 ISO에 합치지 않고 `ms0:/PSP/GAME/ULJS00150/`에 설치합니다. 통합팩
+한 번으로 DLC 3종과 `PARAM.PBP`를 모두 패치합니다.
 
 게임 ISO와 원본 DLC는 제공하지 않습니다. 정품에서 직접 추출한 원본에 적용하십시오.
