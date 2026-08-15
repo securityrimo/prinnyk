@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the public Prinny V1.3 DLC xdelta patches to extracted folders.
+"""Apply the public Prinny V1.5 DLC xdelta patches to extracted folders.
 
 The xdelta source is a deterministic image made only from validated DLC file
 names and bytes. ZIP metadata, parent directory names, mtimes and permissions
@@ -22,8 +22,8 @@ from typing import Any
 
 MAGIC = b"PRDLCF01"
 PATCH_NAMES = {
-    "prinny1": "Prinny1_ULJS00150_DLC_ALL_KO_v1.3.xdelta",
-    "prinny2": "Prinny2_NPJH50211_DLC_ALL_KO_v1.3.xdelta",
+    "prinny1": "Prinny1_ULJS00150_DLC_ALL_KO_v1.5.xdelta",
+    "prinny2": "Prinny2_NPJH50211_DLC_ALL_KO_v1.5.xdelta",
 }
 GAME_SPECS: dict[str, dict[str, Any]] = {
     "prinny1": {
@@ -56,13 +56,13 @@ GAME_SPECS: dict[str, dict[str, Any]] = {
             "TICKET.EDAT": "c4bbf876ead95ecaaf059f27628b0a2e7c5a6333f63449d9e4274b1f3dc8bc99",
         },
         "target": {
-            "JP00.EDAT": "1f4c869edba06cd251a1235fcdc4d70d1d52b41804c6933b370edc223081077d",
+            "JP00.EDAT": "b688afca3bd85d46a4908379773fbe53c55e4c9bbd91b5f9ed00205bbf1be74f",
             "PARAM.PBP": "9d1c690bba2df13ab5694316ff7d38c0d068538e28cc3de09184564c52f2f5f8",
             "RADISH.EDAT": "47cc73ff7d1347c06f7849c72b6b9485f1f913bbe7a93dbc974c3812866c67fb",
             "TICKET.EDAT": "c4bbf876ead95ecaaf059f27628b0a2e7c5a6333f63449d9e4274b1f3dc8bc99",
         },
         "known_existing": {
-            "JP00.EDAT": ["e97a92c0f2749534dd2de41de84901602d78526cbe49e444805c3a2de0e3c643"],
+            "JP00.EDAT": ["e97a92c0f2749534dd2de41de84901602d78526cbe49e444805c3a2de0e3c643", "1f4c869edba06cd251a1235fcdc4d70d1d52b41804c6933b370edc223081077d"],
             "PARAM.PBP": [
                 "a52068a79b3f2a470d20ff17018b1977d0c9ae31196a759e25f19888fe0abf92",
                 "4cd0378a1db670614fb4c0ef78525710992f2c7d740eea831eed2de87cfbd98c",
@@ -206,7 +206,7 @@ def apply_folder_patch(game: str, source: Path, output_root: Path, patch_dir: Pa
     xdelta = xdelta_executable(patch_dir)
 
     output_root.mkdir(parents=True, exist_ok=True)
-    stage = Path(tempfile.mkdtemp(prefix=f".{game}_dlc_v1_3_", dir=output_root))
+    stage = Path(tempfile.mkdtemp(prefix=f".{game}_dlc_v1_5_", dir=output_root))
     try:
         source_image_path = stage / "source.pfdimg"
         target_image_path = stage / "target.pfdimg"
@@ -250,7 +250,7 @@ def apply_folder_patch(game: str, source: Path, output_root: Path, patch_dir: Pa
         report = {
             "format": "prinny_dlc_extracted_folder_apply_v1",
             "status": "PASS",
-            "release": "v1.3",
+            "release": "v1.5",
             "game": game,
             "game_id": spec["game_id"],
             "source_folder": str(source),
@@ -262,7 +262,7 @@ def apply_folder_patch(game: str, source: Path, output_root: Path, patch_dir: Pa
             "output_files": final_hashes,
             "zip_or_filesystem_metadata_used": False,
         }
-        (output_root / f"apply_report_{game}_dlc_v1.3.json").write_text(
+        (output_root / f"apply_report_{game}_dlc_v1.5.json").write_text(
             json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
         return report
@@ -271,7 +271,7 @@ def apply_folder_patch(game: str, source: Path, output_root: Path, patch_dir: Pa
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="프리니 1·2 V1.3 압축 해제 DLC 폴더 패치 적용기")
+    parser = argparse.ArgumentParser(description="프리니 1·2 V1.5 압축 해제 DLC 폴더 패치 적용기")
     parser.add_argument("game", choices=sorted(GAME_SPECS), help="prinny1 또는 prinny2")
     parser.add_argument("source", nargs="?", type=Path, help="압축을 푼 원본 DLC 폴더")
     parser.add_argument("output", nargs="?", type=Path, help="새 PSP/GAME 구조를 만들 출력 폴더")

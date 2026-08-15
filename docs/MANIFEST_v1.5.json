@@ -1,0 +1,98 @@
+{
+  "format": "prinny_1_2_korean_public_release_v1_5",
+  "status": "STATIC_PASS_RUNTIME_NOT_REQUESTED",
+  "original_iso_hashes": {
+    "Prinny1_ULJS00150.iso": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+    "Prinny2_NPJH50211.iso": "4c509ba4d8d2dfcd2635228526fa2955e25ccbb511878861ed31ecfcf2829087"
+  },
+  "result_iso_hashes": {
+    "Prinny1_ULJS00150_KR_v1.5.iso": "9d91eced0ae84434557a34a20965d3c0991b7fddd54f2aa4bb301c2a4166c914",
+    "Prinny2_NPJH50211_KR_v1.5.iso": "4fa2532edd97ed131bc7ca35d1eb52e40c9d1308c9fd72ff3c1d35d14f94cc83"
+  },
+  "dlc_folder_inputs": {
+    "prinny1": {
+      "source_kind": "user-extracted original DLC folder",
+      "matched_files": [
+        "DL0000.EDAT",
+        "DL0001.EDAT",
+        "DL0002.EDAT"
+      ],
+      "source_file_sha256": {
+        "DL0000.EDAT": "a0209702de5210b2f35c57e7c12bfddbeb691200de06769b615ca50254d48c1b",
+        "DL0001.EDAT": "86b48d56b6ba853f09ffb0a524ccebf4f601c78cb0f4937cb885ec8815bdb7a7",
+        "DL0002.EDAT": "3fbc26ed99c1b3f474e50dd5290eb0497e61f0a7e8e9268fb82980a426079be9"
+      },
+      "source_image_sha256": "009e26d1212b03a6c45a558906139e5e46fcddd365406359cb4ed02b804861bc",
+      "target_image_sha256": "7cc548f298cef5e11906351bd3d6be3273951a12eb2eb9b8b83e445de616e3f3",
+      "zip_hash_used": false
+    },
+    "prinny2": {
+      "source_kind": "user-extracted original DLC folder",
+      "matched_files": [
+        "JP00.EDAT",
+        "RADISH.EDAT",
+        "TICKET.EDAT"
+      ],
+      "source_file_sha256": {
+        "JP00.EDAT": "e97a92c0f2749534dd2de41de84901602d78526cbe49e444805c3a2de0e3c643",
+        "RADISH.EDAT": "47cc73ff7d1347c06f7849c72b6b9485f1f913bbe7a93dbc974c3812866c67fb",
+        "TICKET.EDAT": "c4bbf876ead95ecaaf059f27628b0a2e7c5a6333f63449d9e4274b1f3dc8bc99"
+      },
+      "source_image_sha256": "ea5fd2f2b949e5db9c35f4ed5efbc066c62af4357008d0fe53dc442cca8f7d8d",
+      "target_image_sha256": "1f73a8d80831f92177ed6fdbc1df4b35f6728d4756b35af602b31f44e07129d0",
+      "zip_hash_used": false
+    }
+  },
+  "assets": {
+    "Prinny1_ULJS00150_DLC_ALL_KO_v1.5.xdelta": {
+      "sha256": "36dfeb4797d24367bed8d2d475afea7205d4fab48ec8038181b9039cf3692b97",
+      "size": 27149
+    },
+    "Prinny1_ULJS00150_KR_v1.5_BASE.xdelta": {
+      "sha256": "452fb9099b220c9687a61ef68bc7115cd89c75c640f85d184ef5fa850a0a4985",
+      "size": 900157
+    },
+    "Prinny2_NPJH50211_DLC_ALL_KO_v1.5.xdelta": {
+      "sha256": "ddcb347d070562d9ef472066067946fd34bf500f0625bae34e54a075d55fbd82",
+      "size": 31626
+    },
+    "Prinny2_NPJH50211_KR_v1.5_BASE.xdelta": {
+      "sha256": "0a900ec98b6cbe45ce04e732bfdf610f1f160895cf512c1232f7e6ec9ec47936",
+      "size": 1897838
+    },
+    "Prinny_1_2_Korean_Final_v1.5_ALL.zip": {
+      "sha256": "2282e65788faa9b7440f9aef3161c5f876d04192e16b2fcbda1c44851094341b",
+      "size": 2867008
+    },
+    "Prinny_DLC_Folder_Patcher_v1.5.zip": {
+      "sha256": "39ad12bf44ad653c75b5e1e2de72f72327ae7f4efb9816163554f1e28a9222b8",
+      "size": 66338
+    }
+  },
+  "checks": {
+    "sealed_input_isos": true,
+    "four_xdelta_files_created": true,
+    "base_xdelta_round_trip": true,
+    "dlc_folder_image_xdelta_round_trip": true,
+    "user_extracted_folder_apply_round_trip": true,
+    "filesystem_path_mtime_permission_independent": true,
+    "zip_hash_or_zip_recompression_dependency": false,
+    "aggregate_bundle_crc_and_members": true,
+    "dlc_folder_patcher_bundle_crc_and_members": true,
+    "complete_dlc_binaries_distributed": false,
+    "public_assets_checked_for_complete_dlc_payload_hashes": true,
+    "target_iso_7z_and_isovfy": true,
+    "external_texture_dependency": false,
+    "runtime_test_requested": false
+  },
+  "dlc_folder_images": {
+    "prinny1": {
+      "source_image_sha256": "009e26d1212b03a6c45a558906139e5e46fcddd365406359cb4ed02b804861bc",
+      "target_image_sha256": "7cc548f298cef5e11906351bd3d6be3273951a12eb2eb9b8b83e445de616e3f3"
+    },
+    "prinny2": {
+      "source_image_sha256": "ea5fd2f2b949e5db9c35f4ed5efbc066c62af4357008d0fe53dc442cca8f7d8d",
+      "target_image_sha256": "1f73a8d80831f92177ed6fdbc1df4b35f6728d4756b35af602b31f44e07129d0"
+    }
+  }
+}
