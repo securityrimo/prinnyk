@@ -1,0 +1,44 @@
+{
+  "format": "prinny_1_2_korean_public_release_v1_3",
+  "status": "PASS",
+  "input_hashes": {
+    "PrinnyReverseToolkit/game.iso": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+    "final_distribution_v1.1/prinny1/Prinny1_ULJS00150_KR_v1.1_FINAL.iso": "c88e5ade8e114b560da23da32fa908c4b1c2713e1ab051d6cb90a225058e7397",
+    "PrinnyReverseToolkit/game2.iso": "4c509ba4d8d2dfcd2635228526fa2955e25ccbb511878861ed31ecfcf2829087",
+    "prinny2/build/v66_result_reference_style_internal_20260815/Prinny2_NPJH50211_KR_v66_RESULT_REFERENCE_STYLE_INTERNAL_TEST.iso": "d1ba19409596efc4866095ba433a2e945d68e5b30f1d2b34bccf2e013f2c69a4",
+    "dlc_localization/inputs/ULJS00150.zip": "752f6c9ba600e57ab0ba49b80c6b3d14cf8fa9e27ccd148fa0b916c40fbb09c0",
+    "dlc_localization/patches/Prinny1_PSP_DLC_KO_ULJS00150_INSTALL.zip": "1fb26a03cde469efedb5c5154b2aa57964aa55785d44dc0685764142c4f613e0",
+    "dlc_localization/inputs/NPJH50211.zip": "41b0a416eff096ddae60d515bfe8cbb5ee388e654cf705202e0dd6ffc88e6fb3",
+    "dlc_localization/patches/Prinny2_PSP_DLC_KO_NPJH50211_INSTALL.zip": "4511dc11568d2144da62972a97a5252d2f0b4d86d536ba4efde2e836851931fc"
+  },
+  "assets": {
+    "Prinny1_ULJS00150_KR_v1.3_BASE.xdelta": {
+      "sha256": "966fd9b84b24154d893c1077ea50669ca1dc88fd0c8ba06ba277500dbe3d65f7",
+      "size": 900233
+    },
+    "Prinny1_ULJS00150_DLC_ALL_KO_v1.3.xdelta": {
+      "sha256": "e75c8bc9e13aba27468fbe4ce9f0d374dada077fc1e6b5c720ee22edaebccd05",
+      "size": 1905691
+    },
+    "Prinny2_NPJH50211_KR_v1.3_BASE.xdelta": {
+      "sha256": "4b7ced5ee6151051ee2b17f39dc2caca504fb80e5885a1c9f86e5dc7609d74e5",
+      "size": 1820607
+    },
+    "Prinny2_NPJH50211_DLC_ALL_KO_v1.3.xdelta": {
+      "sha256": "04168746c6b71e6fc8cb9776c8732c1766fb7ed033d375299775f3d6f2c9d982",
+      "size": 1276034
+    },
+    "Prinny_1_2_Korean_Final_v1.3_ALL.zip": {
+      "sha256": "2f1fae85d807d1d4591c3638c0880e999c900510afaab8f1b42d4a7f6786ee82",
+      "size": 5905376
+    }
+  },
+  "checks": {
+    "sealed_input_isos": true,
+    "four_xdelta_files_created": true,
+    "base_and_dlc_xdelta_round_trip": true,
+    "decoded_dlc_install_zip_crc": true,
+    "aggregate_bundle_crc_and_members": true,
+    "external_texture_dependency": false
+  }
+}
