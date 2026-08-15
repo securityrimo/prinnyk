@@ -59,28 +59,12 @@
       "size": 1820529
     },
     "Prinny_1_2_Korean_Final_v1.3_ALL.zip": {
-      "sha256": "2acc1b228216cd828e4b28e2fb89b9977597a862e130dafdc26abf0c19b7c0de",
-      "size": 2783691
+      "sha256": "0cdfbb5e885a71d5f1c739f9e240d22bab10d04cf00ec87ca593c94e9995c67f",
+      "size": 2784028
     },
-    "apply_dlc_folder_v1_3.py": {
-      "sha256": "d849a91ef95530649549be33acc2306c950e0b8947071d27ef79541640886ddd",
-      "size": 13176
-    },
-    "apply_prinny1_dlc.bat": {
-      "sha256": "701961c88a0bb785e283c6372a44f53198271d9a3816a765127c9ba513f1837d",
-      "size": 66
-    },
-    "apply_prinny1_dlc.sh": {
-      "sha256": "32e9cee8cdb4f47042d8c2a2756eb45f47bb2b061a091e536874d68d527fd2d6",
-      "size": 69
-    },
-    "apply_prinny2_dlc.bat": {
-      "sha256": "4369e22b88377495da79bd93d36800f280c3012cf901817437a02e63fbea4d7d",
-      "size": 66
-    },
-    "apply_prinny2_dlc.sh": {
-      "sha256": "70feb6b21394dbacd5cab54512cc3e601d01b5a13c885613daa7a658549b5718",
-      "size": 69
+    "Prinny_DLC_Folder_Patcher_v1.3.zip": {
+      "sha256": "746685f8ae6d0793e660ea7ccb8b20b004c8d6af103f2a388a3d14793d4b0ac1",
+      "size": 61015
     }
   },
   "checks": {
@@ -92,6 +76,7 @@
     "filesystem_path_mtime_permission_independent": true,
     "zip_hash_or_zip_recompression_dependency": false,
     "aggregate_bundle_crc_and_members": true,
+    "dlc_folder_patcher_bundle_crc_and_members": true,
     "external_texture_dependency": false
   },
   "dlc_folder_images": {

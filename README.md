@@ -12,7 +12,8 @@ ISO와 압축을 푼 원본 DLC 폴더에 패치를 적용하십시오.
 - `Prinny1_ULJS00150_DLC_ALL_KO_v1.3.xdelta` — 프리니 1 DLC 3종 폴더 패치
 - `Prinny2_NPJH50211_KR_v1.3_BASE.xdelta` — 프리니 2 본편
 - `Prinny2_NPJH50211_DLC_ALL_KO_v1.3.xdelta` — 프리니 2 DLC 전체 폴더 패치
-- `apply_dlc_folder_v1_3.py`와 게임별 `.bat`/`.sh` — DLC 폴더 적용기
+- `Prinny_DLC_Folder_Patcher_v1.3.zip` — DLC xdelta 2개와 폴더 적용기
+- `Prinny_1_2_Korean_Final_v1.3_ALL.zip` — 본편·DLC 패치와 문서 전체 묶음
 
 ## 본편 적용
 
@@ -27,9 +28,10 @@ xdelta3 -d -s "원본.iso" "V1.3_BASE.xdelta" "한글판.iso"
 
 ## DLC 설치
 
-DLC ZIP 자체에는 xdelta를 적용하지 않습니다. ZIP을 먼저 풀고 게임별 실행 파일을
-사용해 압축 해제 폴더를 지정합니다. 적용기는 파일별 SHA-256을 확인한 뒤 새
-`patched_output/PSP/GAME` 구조를 만듭니다. 원본 폴더는 수정하지 않습니다.
+DLC ZIP 자체에는 xdelta를 적용하지 않습니다. `Prinny_DLC_Folder_Patcher_v1.3.zip`을
+풀고 게임별 실행 파일을 사용해 원본 DLC 압축 해제 폴더를 지정합니다. 적용기는
+파일별 SHA-256을 확인한 뒤 새 `patched_output/PSP/GAME` 구조를 만듭니다.
+원본 폴더는 수정하지 않습니다.
 
 - Windows: `apply_prinny1_dlc.bat` 또는 `apply_prinny2_dlc.bat`
 - Linux/macOS: `sh apply_prinny1_dlc.sh` 또는 `sh apply_prinny2_dlc.sh`
