@@ -1,44 +1,107 @@
 {
   "format": "prinny_1_2_korean_public_release_v1_3",
   "status": "PASS",
-  "input_hashes": {
+  "input_iso_hashes": {
     "PrinnyReverseToolkit/game.iso": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
     "final_distribution_v1.3/prinny1/Prinny1_ULJS00150_KR_V1.3_FINAL.iso": "c88e5ade8e114b560da23da32fa908c4b1c2713e1ab051d6cb90a225058e7397",
     "PrinnyReverseToolkit/game2.iso": "4c509ba4d8d2dfcd2635228526fa2955e25ccbb511878861ed31ecfcf2829087",
-    "final_distribution_v1.3/prinny2/Prinny2_NPJH50211_KR_V1.3_FINAL.iso": "d1ba19409596efc4866095ba433a2e945d68e5b30f1d2b34bccf2e013f2c69a4",
-    "dlc_localization/inputs/ULJS00150.zip": "752f6c9ba600e57ab0ba49b80c6b3d14cf8fa9e27ccd148fa0b916c40fbb09c0",
-    "dlc_localization/patches/Prinny1_PSP_DLC_KO_ULJS00150_INSTALL.zip": "1fb26a03cde469efedb5c5154b2aa57964aa55785d44dc0685764142c4f613e0",
-    "dlc_localization/inputs/NPJH50211.zip": "41b0a416eff096ddae60d515bfe8cbb5ee388e654cf705202e0dd6ffc88e6fb3",
-    "dlc_localization/patches/Prinny2_PSP_DLC_KO_NPJH50211_INSTALL.zip": "4511dc11568d2144da62972a97a5252d2f0b4d86d536ba4efde2e836851931fc"
+    "final_distribution_v1.3/prinny2/Prinny2_NPJH50211_KR_V1.3_FINAL.iso": "d1ba19409596efc4866095ba433a2e945d68e5b30f1d2b34bccf2e013f2c69a4"
+  },
+  "dlc_folder_inputs": {
+    "prinny1": {
+      "folder": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/ULJS00150",
+      "matched_files": {
+        "DL0000.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/ULJS00150/DL0000.EDAT",
+        "DL0001.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/ULJS00150/DL0001.EDAT",
+        "DL0002.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/ULJS00150/DL0002.EDAT"
+      },
+      "source_file_sha256": {
+        "DL0000.EDAT": "a0209702de5210b2f35c57e7c12bfddbeb691200de06769b615ca50254d48c1b",
+        "DL0001.EDAT": "86b48d56b6ba853f09ffb0a524ccebf4f601c78cb0f4937cb885ec8815bdb7a7",
+        "DL0002.EDAT": "3fbc26ed99c1b3f474e50dd5290eb0497e61f0a7e8e9268fb82980a426079be9"
+      },
+      "source_image_sha256": "009e26d1212b03a6c45a558906139e5e46fcddd365406359cb4ed02b804861bc",
+      "target_image_sha256": "7cc548f298cef5e11906351bd3d6be3273951a12eb2eb9b8b83e445de616e3f3",
+      "zip_hash_used": false
+    },
+    "prinny2": {
+      "folder": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/NPJH50211",
+      "matched_files": {
+        "JP00.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/NPJH50211/Super Netherworld/NPEH00101/JP00.EDAT",
+        "RADISH.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/NPJH50211/Netherworld Radish/NPEH00101/RADISH.EDAT",
+        "TICKET.EDAT": "/media/hyuk/92647554-5423-456f-ba71-0f4b1803dcdd/NPJH50211/Asagi Wars Premium Special Ticket/NPEH00101/TICKET.EDAT"
+      },
+      "source_file_sha256": {
+        "JP00.EDAT": "e97a92c0f2749534dd2de41de84901602d78526cbe49e444805c3a2de0e3c643",
+        "RADISH.EDAT": "47cc73ff7d1347c06f7849c72b6b9485f1f913bbe7a93dbc974c3812866c67fb",
+        "TICKET.EDAT": "c4bbf876ead95ecaaf059f27628b0a2e7c5a6333f63449d9e4274b1f3dc8bc99"
+      },
+      "source_image_sha256": "ea5fd2f2b949e5db9c35f4ed5efbc066c62af4357008d0fe53dc442cca8f7d8d",
+      "target_image_sha256": "033a942c736258b44e1231c3ea9ae713194bab7a97f7eb9c9fe36d2f5c55d9fb",
+      "zip_hash_used": false
+    }
   },
   "assets": {
+    "Prinny1_ULJS00150_DLC_ALL_KO_v1.3.xdelta": {
+      "sha256": "36dfeb4797d24367bed8d2d475afea7205d4fab48ec8038181b9039cf3692b97",
+      "size": 27149
+    },
     "Prinny1_ULJS00150_KR_v1.3_BASE.xdelta": {
       "sha256": "3a344b17b4b4146f2f7e2a113f58df8d82a058d88ebd868a2563f9e28517b9a5",
       "size": 900186
     },
-    "Prinny1_ULJS00150_DLC_ALL_KO_v1.3.xdelta": {
-      "sha256": "22e1e87a52a985895dd74a4df264549b10104ebb38627e67a1b38f2c2c3caafd",
-      "size": 1905634
+    "Prinny2_NPJH50211_DLC_ALL_KO_v1.3.xdelta": {
+      "sha256": "8c362935cddfc6e4cc312b9cea1adca4c55c13d3914c5ff6697e2477972805f6",
+      "size": 26452
     },
     "Prinny2_NPJH50211_KR_v1.3_BASE.xdelta": {
       "sha256": "9c874eb0f7e42b65aa6d9a2ca2c61979bf14d373123169caa06ad9f9ff925acd",
       "size": 1820529
     },
-    "Prinny2_NPJH50211_DLC_ALL_KO_v1.3.xdelta": {
-      "sha256": "ce7d66897be54824373a7026a007cc7a926a8a925cabc746a93249b927d894b0",
-      "size": 1275977
-    },
     "Prinny_1_2_Korean_Final_v1.3_ALL.zip": {
-      "sha256": "1026cca38420ac57f3bf02a04acc223554ad7609b305f49d21e1b6f300a3e080",
-      "size": 5905142
+      "sha256": "2acc1b228216cd828e4b28e2fb89b9977597a862e130dafdc26abf0c19b7c0de",
+      "size": 2783691
+    },
+    "apply_dlc_folder_v1_3.py": {
+      "sha256": "d849a91ef95530649549be33acc2306c950e0b8947071d27ef79541640886ddd",
+      "size": 13176
+    },
+    "apply_prinny1_dlc.bat": {
+      "sha256": "701961c88a0bb785e283c6372a44f53198271d9a3816a765127c9ba513f1837d",
+      "size": 66
+    },
+    "apply_prinny1_dlc.sh": {
+      "sha256": "32e9cee8cdb4f47042d8c2a2756eb45f47bb2b061a091e536874d68d527fd2d6",
+      "size": 69
+    },
+    "apply_prinny2_dlc.bat": {
+      "sha256": "4369e22b88377495da79bd93d36800f280c3012cf901817437a02e63fbea4d7d",
+      "size": 66
+    },
+    "apply_prinny2_dlc.sh": {
+      "sha256": "70feb6b21394dbacd5cab54512cc3e601d01b5a13c885613daa7a658549b5718",
+      "size": 69
     }
   },
   "checks": {
     "sealed_input_isos": true,
     "four_xdelta_files_created": true,
-    "base_and_dlc_xdelta_round_trip": true,
-    "decoded_dlc_install_zip_crc": true,
+    "base_xdelta_round_trip": true,
+    "dlc_folder_image_xdelta_round_trip": true,
+    "user_extracted_folder_apply_round_trip": true,
+    "filesystem_path_mtime_permission_independent": true,
+    "zip_hash_or_zip_recompression_dependency": false,
     "aggregate_bundle_crc_and_members": true,
     "external_texture_dependency": false
+  },
+  "dlc_folder_images": {
+    "prinny1": {
+      "source_image_sha256": "009e26d1212b03a6c45a558906139e5e46fcddd365406359cb4ed02b804861bc",
+      "target_image_sha256": "7cc548f298cef5e11906351bd3d6be3273951a12eb2eb9b8b83e445de616e3f3"
+    },
+    "prinny2": {
+      "source_image_sha256": "ea5fd2f2b949e5db9c35f4ed5efbc066c62af4357008d0fe53dc442cca8f7d8d",
+      "target_image_sha256": "033a942c736258b44e1231c3ea9ae713194bab7a97f7eb9c9fe36d2f5c55d9fb"
+    }
   }
 }
