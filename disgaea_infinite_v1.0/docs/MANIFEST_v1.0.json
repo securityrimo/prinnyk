@@ -1,0 +1,59 @@
+{
+  "format": "Disgaea Infinite Korean patch release manifest",
+  "version": "1.0",
+  "release_tag": "disgaea-infinite-v1.0",
+  "release_date": "2026-08-27",
+  "game": {
+    "title": "Disgaea Infinite",
+    "platform": "PSP",
+    "region": "Japan",
+    "product_id": "ULJS00286"
+  },
+  "source_iso": {
+    "size": 220889088,
+    "sha256": "32de3247bed3c78fdb66a9fe6d6a973ac808982d2472f569a90809135df9cce5"
+  },
+  "patched_iso": {
+    "size": 220889088,
+    "sha256": "234e9f3bfac930e88cabf779ccc33abe343b4061896634b960c3d3b8deb07f86"
+  },
+  "xdelta": {
+    "path": "Disgaea_Infinite_ULJS00286_KR_v1.0.xdelta",
+    "size": 999883,
+    "sha256": "67c641d088e34d490e19232d68507188985bef2cb6987daa9bc5e63343461d01",
+    "decoded_readback_exact": true
+  },
+  "static_qa": {
+    "check_count": 61,
+    "failure_count": 0,
+    "pass": true,
+    "report": "docs/final_rc9_full_static_qa.json",
+    "report_sha256": "2a3f0d3fa4c13d5cca3ac5c0c395122683f8b1cc8275cee907b738fef39817a6"
+  },
+  "runtime_smoke": {
+    "emulator": "PPSSPP 1.20.4",
+    "scope": [
+      "autosave notice",
+      "title selection screen"
+    ],
+    "replace_textures": false,
+    "autoload_savestate": 0,
+    "cheats": false,
+    "autosave_screenshot": {
+      "path": "docs/runtime_autosave.png",
+      "sha256": "5ee147961c770ddfed67274a3010336b42c1df0a23334c97befde2479459b09e"
+    },
+    "title_screenshot": {
+      "path": "docs/runtime_title.png",
+      "sha256": "033f223086ecff5c0ccb8aaa83355f111ba44e309a5268d9a8c996c5e3681d0b"
+    },
+    "pass": true,
+    "full_playthrough": "NOT RUN"
+  },
+  "distribution": {
+    "contains_game_iso": false,
+    "contains_original_binary_assets": false,
+    "contains_runtime_screenshots": true,
+    "requires_user_owned_original": true
+  }
+}

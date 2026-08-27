@@ -57,3 +57,8 @@ DLC ZIP 자체에는 xdelta를 적용하지 않습니다. `Prinny_DLC_Folder_Pat
 
 PPSSPP에서는 메모리스틱 삽입이 켜져 있어야 합니다. 외부 텍스처 교체는 필요하지
 않으며 사용하지 않습니다.
+
+## 추가 배포
+
+- [디스가이아 인피니트 비공식 한국어 패치 V1.0](disgaea_infinite_v1.0/README.md)
+- 다운로드: https://github.com/sizz1214-lang/prinnyk/releases/tag/disgaea-infinite-v1.0

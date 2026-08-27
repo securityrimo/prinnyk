@@ -1,0 +1,1941 @@
+{
+  "format": "Disgaea Infinite Korean RC9 static and final-image readback QA",
+  "release_label": "RC9",
+  "project_root": "PROJECT_ROOT",
+  "original_iso": {
+    "path": "SOURCE_ISO",
+    "size": 220889088,
+    "sha256": "32de3247bed3c78fdb66a9fe6d6a973ac808982d2472f569a90809135df9cce5"
+  },
+  "candidate_iso": {
+    "path": "PROJECT_ROOT/build/rc9_full/Disgaea_Infinite_Korean_RC9_FULL.iso",
+    "size": 220889088,
+    "sha256": "234e9f3bfac930e88cabf779ccc33abe343b4061896634b960c3d3b8deb07f86"
+  },
+  "contracts": {
+    "start_count": 87,
+    "data_count": 171,
+    "start_size": 11981840,
+    "data_size": 17011728,
+    "start_lzs_slot_size": 5066752,
+    "iso_size": 220889088,
+    "allowed_iso_members": {
+      "START.LZS": "/PSP_GAME/USRDIR/START.LZS",
+      "DATA.DAT": "/PSP_GAME/USRDIR/DATA.DAT",
+      "PARAM.SFO": "/PSP_GAME/PARAM.SFO",
+      "ICON0.PNG": "/PSP_GAME/ICON0.PNG",
+      "PIC0.PNG": "/PSP_GAME/PIC0.PNG",
+      "EBOOT.BIN": "/PSP_GAME/SYSDIR/EBOOT.BIN"
+    }
+  },
+  "archive_layout": {
+    "start": {
+      "template_count": 87,
+      "output_count": 87,
+      "template_size": 11981840,
+      "output_size": 11981840,
+      "endian_preserved": true,
+      "header_size_preserved": true,
+      "entry_count_preserved": true,
+      "entry_identity_and_offsets_preserved": true,
+      "relocated": false,
+      "changed_members": [
+        "FontB0000.txp",
+        "TitleParts1.txp",
+        "MainMenuBG_01.txp",
+        "SkipMark.txp",
+        "flow_name.txp",
+        "TitleParts2.txp",
+        "EventTitle.dat",
+        "sys1.txp",
+        "story.dat",
+        "anm0000.dat",
+        "buttonnavi_db_cg.txp",
+        "ICON0_NEW.png",
+        "buttonnavi_timetable.txp",
+        "FontB0001.txp",
+        "menu_maskmoji.txp",
+        "ICON0_SYSTEM.PNG",
+        "PrinnyDiary.dat",
+        "LeadThinkingList.dat",
+        "cgBG.txp",
+        "dictionary.dat",
+        "PrinnyDiaryBG.txp",
+        "font.ftd",
+        "DB_notice.txp",
+        "buttonnavi_music.txp",
+        "OptionBG_01.txp",
+        "PD_notice.txp",
+        "musicBG.txp",
+        "hyoui_icon.txp",
+        "InProgramTextDB.dat",
+        "OptionBG_02.txp",
+        "ICON0_PLAY.png",
+        "musiclist.dat",
+        "MainMenuBG_02.txp",
+        "buttonnavi_backlog.txp",
+        "DBBG_2.txp",
+        "chrBG.txp"
+      ]
+    },
+    "data": {
+      "template_count": 171,
+      "output_count": 171,
+      "template_size": 17011728,
+      "output_size": 17011728,
+      "endian_preserved": true,
+      "header_size_preserved": true,
+      "entry_count_preserved": true,
+      "entry_identity_and_offsets_preserved": true,
+      "relocated": false,
+      "changed_members": [
+        "anm10005.dat",
+        "anm10110.dat",
+        "anm10129.dat",
+        "anm10810.dat",
+        "anm10921.dat",
+        "anm11020.dat",
+        "anm11030.dat",
+        "anm11220.dat",
+        "anm11421.dat",
+        "anm11451.dat",
+        "anm11551.dat",
+        "anm11611.dat",
+        "anm11630.dat",
+        "anm11739.dat",
+        "anm11810.dat",
+        "anm11819.dat",
+        "anm11829.dat",
+        "anm11910.dat",
+        "anm12130.dat",
+        "anm12230.dat",
+        "anm12231.dat",
+        "anm12239.dat",
+        "anm12250.dat",
+        "anm12339.dat",
+        "anm12351.dat",
+        "anm12420.dat",
+        "anm12429.dat",
+        "anm12440.dat",
+        "anm12449.dat",
+        "anm12450.dat",
+        "anm12620.dat",
+        "anm12629.dat",
+        "anm13000.dat",
+        "anm13009.dat",
+        "anm2000.dat",
+        "anm3000.dat",
+        "ci3204.txp",
+        "ci3209.txp",
+        "ci3211.txp",
+        "ci3212.txp",
+        "ci3214.txp",
+        "ci3215.txp",
+        "ci3216.txp",
+        "ci3217.txp",
+        "ci3218.txp",
+        "ci3219.txp",
+        "ci3220.txp",
+        "ci3222.txp",
+        "ci3223.txp",
+        "ci3225.txp",
+        "ci3226.txp",
+        "ci3228.txp",
+        "ci3230.txp",
+        "ci3231.txp",
+        "ci3235.txp",
+        "ci5003.txp",
+        "ci5005.txp",
+        "ci7006.txp",
+        "ci9005.txp",
+        "ci9006.txp",
+        "ci9009.txp",
+        "ci9010.txp",
+        "ci9011.txp",
+        "ci9012.txp",
+        "ci9013.txp",
+        "ci9014.txp",
+        "ci9015.txp",
+        "ci9016.txp",
+        "GThumb.dat",
+        "NowLoading.txp"
+      ]
+    }
+  },
+  "iso_members": {
+    "START.LZS": {
+      "path": "/PSP_GAME/USRDIR/START.LZS",
+      "source_record": {
+        "record_offset": 51626,
+        "extent_lba": 54576,
+        "data_size": 5064729,
+        "flags": 0,
+        "name": "START.LZS"
+      },
+      "candidate_record": {
+        "record_offset": 51626,
+        "extent_lba": 54576,
+        "data_size": 4926957,
+        "flags": 0,
+        "name": "START.LZS"
+      },
+      "slot_size": 5066752
+    },
+    "DATA.DAT": {
+      "path": "/PSP_GAME/USRDIR/DATA.DAT",
+      "source_record": {
+        "record_offset": 51296,
+        "extent_lba": 57056,
+        "data_size": 17011728,
+        "flags": 0,
+        "name": "DATA.DAT"
+      },
+      "candidate_record": {
+        "record_offset": 51296,
+        "extent_lba": 57056,
+        "data_size": 17011728,
+        "flags": 0,
+        "name": "DATA.DAT"
+      },
+      "slot_size": 17012736
+    },
+    "PARAM.SFO": {
+      "path": "/PSP_GAME/PARAM.SFO",
+      "source_record": {
+        "record_offset": 47256,
+        "extent_lba": 54272,
+        "data_size": 560,
+        "flags": 0,
+        "name": "PARAM.SFO"
+      },
+      "candidate_record": {
+        "record_offset": 47256,
+        "extent_lba": 54272,
+        "data_size": 560,
+        "flags": 0,
+        "name": "PARAM.SFO"
+      },
+      "slot_size": 2048
+    },
+    "ICON0.PNG": {
+      "path": "/PSP_GAME/ICON0.PNG",
+      "source_record": {
+        "record_offset": 47200,
+        "extent_lba": 54144,
+        "data_size": 11348,
+        "flags": 0,
+        "name": "ICON0.PNG"
+      },
+      "candidate_record": {
+        "record_offset": 47200,
+        "extent_lba": 54144,
+        "data_size": 11699,
+        "flags": 0,
+        "name": "ICON0.PNG"
+      },
+      "slot_size": 12288
+    },
+    "PIC0.PNG": {
+      "path": "/PSP_GAME/PIC0.PNG",
+      "source_record": {
+        "record_offset": 47312,
+        "extent_lba": 54160,
+        "data_size": 53832,
+        "flags": 0,
+        "name": "PIC0.PNG"
+      },
+      "candidate_record": {
+        "record_offset": 47312,
+        "extent_lba": 54160,
+        "data_size": 48661,
+        "flags": 0,
+        "name": "PIC0.PNG"
+      },
+      "slot_size": 55296
+    },
+    "EBOOT.BIN": {
+      "path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+      "source_record": {
+        "record_offset": 49304,
+        "extent_lba": 544,
+        "data_size": 586000,
+        "flags": 0,
+        "name": "EBOOT.BIN"
+      },
+      "candidate_record": {
+        "record_offset": 49304,
+        "extent_lba": 544,
+        "data_size": 586000,
+        "flags": 0,
+        "name": "EBOOT.BIN"
+      },
+      "slot_size": 587776
+    }
+  },
+  "story_iso_readback": {
+    "pass": true,
+    "story_size": 895268,
+    "story_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+    "data_offset": 4920,
+    "table_entry_count": 614,
+    "physical_record_count": 614,
+    "alias_count": 0,
+    "command_token_count": 75331,
+    "text_token_count": 5063,
+    "semantic_token_count": 80394,
+    "alignment_padding_count": 49857,
+    "record_offset_mod4_violation_count": 0,
+    "record_end_mod4_violation_count": 0,
+    "semantic_token_offset_mod4_violation_count": 0,
+    "semantic_token_end_mod4_violation_count": 0,
+    "alignment_padding_offset_mod4_violation_count": 0,
+    "missing_alignment_padding_count": 0,
+    "unexpected_alignment_padding_count": 0,
+    "alignment_padding_rule_violation_count": 0,
+    "violation_examples": [],
+    "source": "PROJECT_ROOT/build/rc9_full/Disgaea_Infinite_Korean_RC9_FULL.iso::/PSP_GAME/USRDIR/START.LZS::story.dat",
+    "start_lzs_sha256": "83a58a7c9c1589d1b96072e67482b1579967ab5b064fbfa9538cf130b3cae413",
+    "start_dat_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a",
+    "lzs_header": {
+      "extension": "dat",
+      "extension_hex": "64617400",
+      "uncompressed_size": 11981840,
+      "compressed_size_field": 4926953,
+      "compression_flag": 147,
+      "reserved_hex": "000000",
+      "file_size": 4926957
+    },
+    "nispack_entry": {
+      "index": 18,
+      "name": "story.dat",
+      "name_raw_hex": "73746f72792e6461740000000000000000000000000000000000000000000000",
+      "offset": 518144,
+      "size": 895268,
+      "unknown": 999391938,
+      "sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed"
+    },
+    "external_readback_path": "PROJECT_ROOT/build/rc9_full/iso_readback_start_members/story.dat",
+    "external_readback_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+    "external_readback_exact": true
+  },
+  "iso_changed_byte_audit": {
+    "size_equal": true,
+    "allowed_regions": [
+      {
+        "start": 51636,
+        "end": 51644,
+        "size": 8,
+        "member": "START.LZS",
+        "label": "START.LZS directory size"
+      },
+      {
+        "start": 111771648,
+        "end": 116838400,
+        "size": 5066752,
+        "member": "START.LZS",
+        "label": "START.LZS allocation"
+      },
+      {
+        "start": 51306,
+        "end": 51314,
+        "size": 8,
+        "member": "DATA.DAT",
+        "label": "DATA.DAT directory size"
+      },
+      {
+        "start": 116850688,
+        "end": 133863424,
+        "size": 17012736,
+        "member": "DATA.DAT",
+        "label": "DATA.DAT allocation"
+      },
+      {
+        "start": 47266,
+        "end": 47274,
+        "size": 8,
+        "member": "PARAM.SFO",
+        "label": "PARAM.SFO directory size"
+      },
+      {
+        "start": 111149056,
+        "end": 111151104,
+        "size": 2048,
+        "member": "PARAM.SFO",
+        "label": "PARAM.SFO allocation"
+      },
+      {
+        "start": 47210,
+        "end": 47218,
+        "size": 8,
+        "member": "ICON0.PNG",
+        "label": "ICON0.PNG directory size"
+      },
+      {
+        "start": 110886912,
+        "end": 110899200,
+        "size": 12288,
+        "member": "ICON0.PNG",
+        "label": "ICON0.PNG allocation"
+      },
+      {
+        "start": 47322,
+        "end": 47330,
+        "size": 8,
+        "member": "PIC0.PNG",
+        "label": "PIC0.PNG directory size"
+      },
+      {
+        "start": 110919680,
+        "end": 110974976,
+        "size": 55296,
+        "member": "PIC0.PNG",
+        "label": "PIC0.PNG allocation"
+      },
+      {
+        "start": 49314,
+        "end": 49322,
+        "size": 8,
+        "member": "EBOOT.BIN",
+        "label": "EBOOT.BIN directory size"
+      },
+      {
+        "start": 1114112,
+        "end": 1701888,
+        "size": 587776,
+        "member": "EBOOT.BIN",
+        "label": "EBOOT.BIN allocation"
+      }
+    ],
+    "changed_byte_count": 6428310,
+    "changed_bytes_by_region": {
+      "START.LZS directory size": 6,
+      "START.LZS allocation": 4919722,
+      "DATA.DAT directory size": 0,
+      "DATA.DAT allocation": 860073,
+      "PARAM.SFO directory size": 0,
+      "PARAM.SFO allocation": 41,
+      "ICON0.PNG directory size": 4,
+      "ICON0.PNG allocation": 11601,
+      "PIC0.PNG directory size": 4,
+      "PIC0.PNG allocation": 53551,
+      "EBOOT.BIN directory size": 0,
+      "EBOOT.BIN allocation": 583308
+    },
+    "changed_members": [
+      "DATA.DAT",
+      "EBOOT.BIN",
+      "ICON0.PNG",
+      "PARAM.SFO",
+      "PIC0.PNG",
+      "START.LZS"
+    ],
+    "unexpected_changed_byte_count": 0,
+    "unexpected_changed_byte_examples": [],
+    "pass": true
+  },
+  "layers": {
+    "input_reports": true,
+    "TXP/ANM 범위": true,
+    "NISPACK/LZS": true,
+    "결정론적 에셋": true,
+    "EBOOT": true,
+    "RC8 화면/대사 계약": true,
+    "최종 ISO readback": true,
+    "runtime": "NOT RUN"
+  },
+  "checks": [
+    {
+      "name": "report.textures.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/texture_localization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.anm.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/anm_localization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.gthumb.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/gthumb_localization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.save_icons.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/save_icon_normalization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.xmb.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/xmb_localization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.eboot_contract.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/eboot_localization_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.story_source.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/story_dialogue_terminology_audit_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.story_dialogue.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/story_dialogue_terminology_build_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.in_program.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/in_program_tail_localization_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_00_font_mapping_audit_rc5.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/font_mapping_audit_rc5.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_01_font_build_rc9_qa.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/font_build_rc9_qa.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_02_ui_translation_qa_rc9.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/ui_translation_qa_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_03_dictionary_translation_qa.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/build/rc9_full/dictionary_translation_qa.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_04_dictionary_two_byte_capacity_audit_rc9.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/dictionary_two_byte_capacity_audit_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_05_dictionary_translation_qa_rc9.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/dictionary_translation_qa_rc9.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_06_korean_translated_members_build_rc9_full.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/korean_translated_members_build_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_07_title_composition_rc9_full.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/title_composition_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_08_anm3000_title_rc9_full.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/anm3000_title_rc9_full.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_09_rc9_full_start_lzs_token_audit.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_start_lzs_token_audit.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_10_rc9_full_iso_patch_start.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_start.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_11_rc9_full_iso_patch_data.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_data.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_12_rc9_full_iso_patch_param.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_param.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_13_rc9_full_iso_patch_icon.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_icon.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_14_rc9_full_iso_patch_pic.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_pic.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_15_rc9_full_iso_patch_eboot.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_patch_eboot.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_16_rc9_full_iso_readback_start.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_readback_start.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_17_rc9_full_iso_readback_data.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_readback_data.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "report.extra_18_rc9_full_iso_readback_eboot.pass",
+      "pass": true,
+      "details": {
+        "path": "PROJECT_ROOT/analysis/rc9_full_iso_readback_eboot.json",
+        "reported_pass": true
+      }
+    },
+    {
+      "name": "release.contract_reports_present",
+      "pass": true,
+      "details": {
+        "localized_eboot": "PROJECT_ROOT/build/rc9_full/EBOOT_KO_RC9_FULL.BIN",
+        "eboot_contract": "PROJECT_ROOT/analysis/eboot_localization_rc9_full.json",
+        "story_source": "PROJECT_ROOT/analysis/story_dialogue_terminology_audit_rc9.json",
+        "story_dialogue": "PROJECT_ROOT/analysis/story_dialogue_terminology_build_rc9.json",
+        "in_program": "PROJECT_ROOT/analysis/in_program_tail_localization_rc9.json"
+      }
+    },
+    {
+      "name": "report.story_source.release_metadata",
+      "pass": true,
+      "details": {
+        "expected_release_number": 9,
+        "reported_release_number": 9,
+        "expected_release_label": "RC9",
+        "reported_release_label": "RC9",
+        "expected_required_path": "analysis/story_dialogue_terminology_audit_rc9.json",
+        "expected_report_role": "audit",
+        "release_gate": {
+          "build_script": "PROJECT_ROOT/tools/build_rc6_full.sh",
+          "release_number": 9,
+          "release_label": "RC9",
+          "report_role": "audit",
+          "required_path": "analysis/story_dialogue_terminology_audit_rc9.json",
+          "required_top_level_contract": "pass is boolean true",
+          "path_exact": true,
+          "contract_satisfied": true
+        }
+      }
+    },
+    {
+      "name": "report.story_dialogue.release_metadata",
+      "pass": true,
+      "details": {
+        "expected_release_number": 9,
+        "reported_release_number": 9,
+        "expected_release_label": "RC9",
+        "reported_release_label": "RC9",
+        "expected_required_path": "analysis/story_dialogue_terminology_build_rc9.json",
+        "expected_report_role": "build",
+        "release_gate": {
+          "build_script": "PROJECT_ROOT/tools/build_rc6_full.sh",
+          "release_number": 9,
+          "release_label": "RC9",
+          "report_role": "build",
+          "required_path": "analysis/story_dialogue_terminology_build_rc9.json",
+          "required_top_level_contract": "pass is boolean true",
+          "path_exact": true,
+          "contract_satisfied": true
+        }
+      }
+    },
+    {
+      "name": "report.in_program.release_metadata",
+      "pass": true,
+      "details": {
+        "expected_release_number": 9,
+        "reported_release_number": 9,
+        "expected_release_label": "RC9",
+        "reported_release_label": "RC9",
+        "expected_required_path": "analysis/in_program_tail_localization_rc9.json",
+        "expected_report_role": "audit",
+        "release_gate": {
+          "build_script": "PROJECT_ROOT/tools/build_rc6_full.sh",
+          "release_number": 9,
+          "release_label": "RC9",
+          "report_role": "audit",
+          "required_path": "analysis/in_program_tail_localization_rc9.json",
+          "required_top_level_contract": "pass is boolean true",
+          "path_exact": true,
+          "contract_satisfied": true
+        }
+      }
+    },
+    {
+      "name": "eboot.elf_identity_and_size",
+      "pass": true,
+      "details": {
+        "size": 586000,
+        "expected_size": 586000,
+        "magic_hex": "7f454c46",
+        "sha256": "8a2a9d676c998ed95f84a864c165742b25530a8a2ec068b55cbf712162043708"
+      }
+    },
+    {
+      "name": "eboot.runtime_compact_and_savedata_contract",
+      "pass": true,
+      "details": {
+        "reported_eboot_sha256": "8a2a9d676c998ed95f84a864c165742b25530a8a2ec068b55cbf712162043708",
+        "actual_eboot_sha256": "8a2a9d676c998ed95f84a864c165742b25530a8a2ec068b55cbf712162043708",
+        "compact_label_count": 12,
+        "expected_compact_label_count": 12,
+        "actual_source_counts": {
+          "Ｎｏ．": 1,
+          "Ｎｏ．%s": 2,
+          "サブメニュー": 1,
+          "バックログ": 2,
+          "オートプレイ": 2,
+          "このイベントをスキップ": 1,
+          "オートスキップ": 2,
+          "ゲームに戻る": 1
+        },
+        "expected_source_counts": {
+          "Ｎｏ．": 1,
+          "Ｎｏ．%s": 2,
+          "サブメニュー": 1,
+          "バックログ": 2,
+          "オートプレイ": 2,
+          "このイベントをスキップ": 1,
+          "オートスキップ": 2,
+          "ゲームに戻る": 1
+        },
+        "compact_failures": [],
+        "title_runtime_wording_authority": {
+          "authority": "EBOOT_dynamic_CP932_KoreanCodec_strings",
+          "texture_role": "TitleParts1/2.txp are background/art; not runtime wording authority",
+          "measurement_function_virtual_address": "0x08858EDC",
+          "drawing_function_virtual_address": "0x08859094",
+          "cell_width_function_virtual_address": "0x08864F24",
+          "blocks": {
+            "main": {
+              "copy_source_virtual_address": "0x08887F14",
+              "copy_instruction_virtual_address": "0x088611D4",
+              "copy_bytes": 48,
+              "slot_stride_bytes": 12
+            },
+            "view": {
+              "copy_source_virtual_address": "0x08887F44",
+              "copy_instruction_virtual_address": "0x088618B8",
+              "copy_bytes": 72,
+              "slot_stride_bytes": 18
+            }
+          }
+        },
+        "title_label_contract_pass": true,
+        "title_runtime_labels": [
+          {
+            "screen": "main",
+            "slot_index": 0,
+            "source_text": "最初から",
+            "translation_ko": "처음부터",
+            "expected_translation_ko": "처음부터",
+            "entry_offset": "0x083F68",
+            "entry_virtual_address": "0x08887F14",
+            "expected_virtual_address": "0x08887F14",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "main",
+            "slot_index": 1,
+            "source_text": "続きから",
+            "translation_ko": "이어하기",
+            "expected_translation_ko": "이어하기",
+            "entry_offset": "0x083F74",
+            "entry_virtual_address": "0x08887F20",
+            "expected_virtual_address": "0x08887F20",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "main",
+            "slot_index": 2,
+            "source_text": "オプション",
+            "translation_ko": "설정",
+            "expected_translation_ko": "설정",
+            "entry_offset": "0x083F80",
+            "entry_virtual_address": "0x08887F2C",
+            "expected_virtual_address": "0x08887F2C",
+            "literal_cell_count": 2,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 18,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 15.0,
+            "pass": true
+          },
+          {
+            "screen": "main",
+            "slot_index": 3,
+            "source_text": "鑑賞モード",
+            "translation_ko": "감상모드",
+            "expected_translation_ko": "감상모드",
+            "entry_offset": "0x083F8C",
+            "entry_virtual_address": "0x08887F38",
+            "expected_virtual_address": "0x08887F38",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "view",
+            "slot_index": 0,
+            "source_text": "魔界データベース",
+            "translation_ko": "마계자료",
+            "expected_translation_ko": "마계자료",
+            "entry_offset": "0x083F98",
+            "entry_virtual_address": "0x08887F44",
+            "expected_virtual_address": "0x08887F44",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "view",
+            "slot_index": 1,
+            "source_text": "音楽鑑賞",
+            "translation_ko": "음악감상",
+            "expected_translation_ko": "음악감상",
+            "entry_offset": "0x083FAA",
+            "entry_virtual_address": "0x08887F56",
+            "expected_virtual_address": "0x08887F56",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "view",
+            "slot_index": 2,
+            "source_text": "ＣＧ鑑賞",
+            "translation_ko": "CG감상",
+            "expected_translation_ko": "CG감상",
+            "entry_offset": "0x083FBC",
+            "entry_virtual_address": "0x08887F68",
+            "expected_virtual_address": "0x08887F68",
+            "literal_cell_count": 4,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 36,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 6.0,
+            "pass": true
+          },
+          {
+            "screen": "view",
+            "slot_index": 3,
+            "source_text": "キャラクター鑑賞",
+            "translation_ko": "인물",
+            "expected_translation_ko": "인물",
+            "entry_offset": "0x083FCE",
+            "entry_virtual_address": "0x08887F7A",
+            "expected_virtual_address": "0x08887F7A",
+            "literal_cell_count": 2,
+            "literal_cell_budget": 4,
+            "scale_step": -3,
+            "scale_percent": 70,
+            "base_cell_width_px": 13,
+            "scaled_cell_width_px": 9,
+            "estimated_text_width_px": 18,
+            "runtime_panel_width_px": 48.0,
+            "runtime_horizontal_margin_each_px": 15.0,
+            "pass": true
+          }
+        ],
+        "expected_title_labels": {
+          "main:0": [
+            "最初から",
+            "처음부터",
+            "0x08887F14"
+          ],
+          "main:1": [
+            "続きから",
+            "이어하기",
+            "0x08887F20"
+          ],
+          "main:2": [
+            "オプション",
+            "설정",
+            "0x08887F2C"
+          ],
+          "main:3": [
+            "鑑賞モード",
+            "감상모드",
+            "0x08887F38"
+          ],
+          "view:0": [
+            "魔界データベース",
+            "마계자료",
+            "0x08887F44"
+          ],
+          "view:1": [
+            "音楽鑑賞",
+            "음악감상",
+            "0x08887F56"
+          ],
+          "view:2": [
+            "ＣＧ鑑賞",
+            "CG감상",
+            "0x08887F68"
+          ],
+          "view:3": [
+            "キャラクター鑑賞",
+            "인물",
+            "0x08887F7A"
+          ]
+        },
+        "title_instruction_contract_pass": true,
+        "title_instruction_role_counts": {
+          "main:measure": 4,
+          "main:draw": 4,
+          "view:measure": 4,
+          "view:draw": 4
+        },
+        "title_instruction_patch_count": 16,
+        "title_panel_contract_pass": true,
+        "title_panel_roles": [
+          "main:driver_text_x_plus_6",
+          "main:panel_width_plus_12",
+          "view:driver_text_x_plus_6",
+          "view:panel_width_plus_12"
+        ],
+        "title_panel_instruction_patch_count": 4,
+        "title_panel_instruction_patches": [
+          {
+            "screen": "main",
+            "purpose": "panel_width_plus_12",
+            "virtual_address": "0x08861264",
+            "file_offset": "0x05D2B8",
+            "expected_word": "0x05010003",
+            "patched_word": "0x2508000C",
+            "panel_expansion_px": 12,
+            "driver_x_compensation_px": 0
+          },
+          {
+            "screen": "view",
+            "purpose": "panel_width_plus_12",
+            "virtual_address": "0x08861960",
+            "file_offset": "0x05D9B4",
+            "expected_word": "0x05010003",
+            "patched_word": "0x2508000C",
+            "panel_expansion_px": 12,
+            "driver_x_compensation_px": 0
+          },
+          {
+            "screen": "main",
+            "purpose": "driver_text_x_plus_6",
+            "virtual_address": "0x08861344",
+            "file_offset": "0x05D398",
+            "expected_word": "0x02002021",
+            "patched_word": "0x26040006",
+            "panel_expansion_px": 12,
+            "driver_x_compensation_px": 6
+          },
+          {
+            "screen": "view",
+            "purpose": "driver_text_x_plus_6",
+            "virtual_address": "0x088619A8",
+            "file_offset": "0x05D9FC",
+            "expected_word": "0x02602021",
+            "patched_word": "0x26640006",
+            "panel_expansion_px": 12,
+            "driver_x_compensation_px": 6
+          }
+        ],
+        "authorized_code_patch_changed_byte_count": 78,
+        "authorized_code_patch_range_byte_count": 80,
+        "authorized_title_panel_changed_byte_count": 14,
+        "unauthorized_outside_data_changed_byte_count": 0,
+        "savedata_unsupported_glyphs": [],
+        "autosave_unconfirmed_glyphs": [],
+        "savedata_layouts": [
+          {
+            "offset": "0x07FB9C",
+            "translation_ko": "%s에 시스템 데이터를 자동 저장합니다. \n자동 저장 중에는 %s을 분리하거나 \n전원을 끄면 안 됩니다.",
+            "format_arguments": [
+              "메모리스틱™",
+              "메모리스틱™"
+            ],
+            "expanded_text": "메모리스틱™에 시스템 데이터를 자동 저장합니다. \n자동 저장 중에는 메모리스틱™을 분리하거나 \n전원을 끄면 안 됩니다.",
+            "line_count": 3,
+            "expected_line_count": 3,
+            "line_cell_counts": [
+              26,
+              23,
+              13
+            ],
+            "max_line_cell_count": 26,
+            "line_cell_budget": 30,
+            "pass": true
+          }
+        ],
+        "actual_savedata_lines": [
+          "메모리스틱™에 시스템 데이터를 자동 저장합니다.",
+          "자동 저장 중에는 메모리스틱™을 분리하거나",
+          "전원을 끄면 안 됩니다."
+        ],
+        "expected_savedata_lines": [
+          "메모리스틱™에 시스템 데이터를 자동 저장합니다.",
+          "자동 저장 중에는 메모리스틱™을 분리하거나",
+          "전원을 끄면 안 됩니다."
+        ]
+      }
+    },
+    {
+      "name": "story.dialogue_terminology_and_readback",
+      "pass": true,
+      "details": {
+        "reported_story_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+        "actual_story_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+        "reported_merged_tsv_sha256": "648739f5bd6fac82f1e2add4e4db5e8efedff29f7143f350ad744ffc4590acda",
+        "actual_merged_tsv_sha256": "648739f5bd6fac82f1e2add4e4db5e8efedff29f7143f350ad744ffc4590acda",
+        "inventory": {
+          "story_text_row_count": 5063,
+          "semantic_readback_row_count": 5063,
+          "changed_row_count": 8
+        },
+        "regeneration": {
+          "generic_qa_pass": true,
+          "generic_qa_error_count": 0,
+          "regenerated_merged": "build/rc9_full/story_translation_merged_regenerated.tsv",
+          "regenerated_merged_sha256": "648739f5bd6fac82f1e2add4e4db5e8efedff29f7143f350ad744ffc4590acda",
+          "byte_exact_to_checked_in_merged": true
+        },
+        "story_rebuild_readback": {
+          "structure_error_count": 0,
+          "semantic_mismatch_count": 0,
+          "all_5063_rows_byte_exact": true,
+          "structure_errors": [],
+          "readback_errors": []
+        },
+        "changed_row_capacity": {
+          "checked_count": 8,
+          "overflow_count": 0,
+          "errors": []
+        },
+        "critical_token_join": {
+          "keys": [
+            "r0008_t0430_00006878",
+            "r0008_t0433_0000688C"
+          ],
+          "decoded_parts": [
+            "다　",
+            "압수하는　걸로，"
+          ],
+          "expected_join": "다　압수하는　걸로，",
+          "actual_join": "다　압수하는　걸로，",
+          "explicit_separator_codepoint": "U+3000",
+          "join_byte_exact": true,
+          "obsolete_1_hel_fragment_count": 0,
+          "decoded_full_utterance": "땀　흘려　일하며　지금까지　모은　네　돈，다　압수하는　걸로，이번엔　봐줄게！",
+          "errors": []
+        },
+        "prinny_squad_terminology": {
+          "source_occurrence_count": 7,
+          "required_target": "프리니 부대",
+          "legacy_compound_target": "프리니대",
+          "violation_count": 0,
+          "errors": []
+        },
+        "focused_voice_contract": {
+          "authority": "translator_declared_from_local_source_context",
+          "source_axis": "Japanese Prinny ッス register and scene speaker continuity",
+          "target_axis": "Korean 슴다체/십쇼 ending transform",
+          "required_prinny_rows": {
+            "r0008_t0335_00006588": "십쇼",
+            "r0008_t0338_000065B0": "십쇼",
+            "r0008_t0370_00006694": "임다",
+            "r0008_t0451_00006918": "함다"
+          },
+          "plain_etna_rows": [
+            "r0008_t0359_0000664C",
+            "r0008_t0403_00006788",
+            "r0008_t0407_000067BC",
+            "r0008_t0427_00006844",
+            "r0008_t0430_00006878",
+            "r0008_t0433_0000688C",
+            "r0008_t0437_000068AC"
+          ],
+          "error_count": 0,
+          "errors": []
+        },
+        "all_error_counts": {
+          "structure": 0,
+          "semantic_readback": 0,
+          "generic_translation_qa": 0,
+          "regenerated_merged_diff": 0,
+          "changed_row_capacity": 0,
+          "critical_token_join": 0,
+          "prinny_squad_terminology": 0,
+          "focused_voice_contract": 0
+        }
+      }
+    },
+    {
+      "name": "in_program.dynamic_prefix_fixed_tail_and_readback",
+      "pass": true,
+      "details": {
+        "reported_member_sha256": "79870e00655d589a469f898cd95963a812b3692256cd061fb4dd2997f1727175",
+        "actual_member_sha256": "79870e00655d589a469f898cd95963a812b3692256cd061fb4dd2997f1727175",
+        "reported_ui_tsv_sha256": "df7572edb59f07b5c53d514ed2d4386bb5f50c9edac13345d1bd7025c7732e5f",
+        "actual_ui_tsv_sha256": "df7572edb59f07b5c53d514ed2d4386bb5f50c9edac13345d1bd7025c7732e5f",
+        "reported_mapping_sha256": "7f2cd9d13dd66f4e8189d4dde79a11e64bfdda149152ce04b52f927452fb6dd7",
+        "actual_mapping_sha256": "7f2cd9d13dd66f4e8189d4dde79a11e64bfdda149152ce04b52f927452fb6dd7",
+        "dynamic_prefix_end": 1822,
+        "zero_pad_size": 295,
+        "tail_offset": 2117,
+        "tail_size": 46,
+        "dynamic_relationships": true,
+        "tail_contract": true,
+        "contract_count": 30,
+        "all_contracts_true": true
+      }
+    },
+    {
+      "name": "txp.unexpected_changes_zero",
+      "pass": true,
+      "details": {
+        "top_level": 0,
+        "failing_files": []
+      }
+    },
+    {
+      "name": "txp.title_parts_runtime_fit_contract",
+      "pass": true,
+      "details": {
+        "evidence_scope": "static TXP integrity/background-art contract; visible title wording is dynamically rendered from EBOOT and runtime smoke remains pending",
+        "runtime_wording_authority": "EBOOT_dynamic_CP932_KoreanCodec_strings",
+        "txp_role": "background/art; not runtime wording authority",
+        "expected_texture_count": 2,
+        "per_texture": {
+          "TitleParts1.txp": {
+            "pass": true,
+            "match_count": 1,
+            "label_count": 8,
+            "actual_targets": [
+              "감상모드",
+              "감상모드",
+              "설정",
+              "설정",
+              "이어하기",
+              "이어하기",
+              "처음부터",
+              "처음부터"
+            ],
+            "expected_targets": [
+              "감상모드",
+              "감상모드",
+              "설정",
+              "설정",
+              "이어하기",
+              "이어하기",
+              "처음부터",
+              "처음부터"
+            ],
+            "font_sizes": [
+              12,
+              12,
+              12,
+              12,
+              12,
+              12,
+              12,
+              12
+            ],
+            "maximum_font_size": 12,
+            "reported_output_sha256": "979a55614043cc7d96c9c3793ab3a235d47783847f736c29ad5f975fdd1a8f9a",
+            "actual_member_sha256": "979a55614043cc7d96c9c3793ab3a235d47783847f736c29ad5f975fdd1a8f9a",
+            "runtime_consumer_fit_count": 8,
+            "minimum_runtime_margin": 3.0,
+            "decorative_wings_removed_count": 8,
+            "outside_face_opaque_pixel_count": 0,
+            "consumer_alpha_component_counts": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "consumer_extra_alpha_component_count": 0,
+            "consumer_empty_face_count": 0
+          },
+          "TitleParts2.txp": {
+            "pass": true,
+            "match_count": 1,
+            "label_count": 8,
+            "actual_targets": [
+              "CG감상",
+              "CG감상",
+              "마계자료",
+              "마계자료",
+              "음악감상",
+              "음악감상",
+              "인물",
+              "인물"
+            ],
+            "expected_targets": [
+              "CG감상",
+              "CG감상",
+              "마계자료",
+              "마계자료",
+              "음악감상",
+              "음악감상",
+              "인물",
+              "인물"
+            ],
+            "font_sizes": [
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11,
+              11
+            ],
+            "maximum_font_size": 11,
+            "reported_output_sha256": "5a824889aa53aec945d905c5c06d49e2d9981761c40491ff7b1bb7d9b9c45a7e",
+            "actual_member_sha256": "5a824889aa53aec945d905c5c06d49e2d9981761c40491ff7b1bb7d9b9c45a7e",
+            "runtime_consumer_fit_count": 8,
+            "minimum_runtime_margin": 4.125,
+            "decorative_wings_removed_count": 8,
+            "outside_face_opaque_pixel_count": 0,
+            "consumer_alpha_component_counts": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "consumer_extra_alpha_component_count": 0,
+            "consumer_empty_face_count": 0
+          }
+        }
+      }
+    },
+    {
+      "name": "anm.unexpected_changes_zero",
+      "pass": true,
+      "details": {
+        "top_level": 0,
+        "failing_files": []
+      }
+    },
+    {
+      "name": "anm.sprite_consumer_topology_safe",
+      "pass": true,
+      "details": {
+        "legacy_full_mode_count": 0,
+        "sprite_topology_edit_count": 23,
+        "sprite_topology_mismatch_count": 0,
+        "changed_pixel_outside_consumer_rectangles": 0,
+        "target_changed_outside_consumer_rectangles": 0,
+        "target_opaque_outside_consumer_rectangles": 0,
+        "foreign_target_intrusion_pixel_count": 0,
+        "cross_consumer_opaque_pixel_count": 0,
+        "expected_sprite_topology_edit_count": 23,
+        "applicable_sheet_count": 23,
+        "failing_sheets": []
+      }
+    },
+    {
+      "name": "nispack.start.report_contract",
+      "pass": true,
+      "details": {
+        "count": 87,
+        "relocated": false,
+        "alignment": 2048,
+        "output_size": 11981840,
+        "output_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a",
+        "actual_output_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a",
+        "template_sha256": "307a838c3340b9d9c39ed87d72aaac6e6e4ddd3cc9872c623164580497d704c5",
+        "actual_template_sha256": "307a838c3340b9d9c39ed87d72aaac6e6e4ddd3cc9872c623164580497d704c5",
+        "members_dir": "work/korean_release_members_start_rc9_full",
+        "actual_members_root": "PROJECT_ROOT/work/korean_release_members_start_rc9_full"
+      }
+    },
+    {
+      "name": "nispack.data.report_contract",
+      "pass": true,
+      "details": {
+        "count": 171,
+        "relocated": false,
+        "alignment": 2048,
+        "output_size": 17011728,
+        "output_sha256": "13c702dd3c3a0c7085d1de05475db0d753eeee02eef646392496e634cc8b344f",
+        "actual_output_sha256": "13c702dd3c3a0c7085d1de05475db0d753eeee02eef646392496e634cc8b344f",
+        "template_sha256": "11348bbc5e42333a66d45561e289d988604849441fc1c82dc3b8612bcb231cdf",
+        "actual_template_sha256": "11348bbc5e42333a66d45561e289d988604849441fc1c82dc3b8612bcb231cdf",
+        "members_dir": "work/korean_release_members_data_rc9_full",
+        "actual_members_root": "PROJECT_ROOT/work/korean_release_members_data_rc9_full"
+      }
+    },
+    {
+      "name": "nispack.start.no_relocation",
+      "pass": true,
+      "details": {
+        "template_count": 87,
+        "output_count": 87,
+        "template_size": 11981840,
+        "output_size": 11981840,
+        "endian_preserved": true,
+        "header_size_preserved": true,
+        "entry_count_preserved": true,
+        "entry_identity_and_offsets_preserved": true,
+        "relocated": false,
+        "changed_members": [
+          "FontB0000.txp",
+          "TitleParts1.txp",
+          "MainMenuBG_01.txp",
+          "SkipMark.txp",
+          "flow_name.txp",
+          "TitleParts2.txp",
+          "EventTitle.dat",
+          "sys1.txp",
+          "story.dat",
+          "anm0000.dat",
+          "buttonnavi_db_cg.txp",
+          "ICON0_NEW.png",
+          "buttonnavi_timetable.txp",
+          "FontB0001.txp",
+          "menu_maskmoji.txp",
+          "ICON0_SYSTEM.PNG",
+          "PrinnyDiary.dat",
+          "LeadThinkingList.dat",
+          "cgBG.txp",
+          "dictionary.dat",
+          "PrinnyDiaryBG.txp",
+          "font.ftd",
+          "DB_notice.txp",
+          "buttonnavi_music.txp",
+          "OptionBG_01.txp",
+          "PD_notice.txp",
+          "musicBG.txp",
+          "hyoui_icon.txp",
+          "InProgramTextDB.dat",
+          "OptionBG_02.txp",
+          "ICON0_PLAY.png",
+          "musiclist.dat",
+          "MainMenuBG_02.txp",
+          "buttonnavi_backlog.txp",
+          "DBBG_2.txp",
+          "chrBG.txp"
+        ]
+      }
+    },
+    {
+      "name": "nispack.data.no_relocation",
+      "pass": true,
+      "details": {
+        "template_count": 171,
+        "output_count": 171,
+        "template_size": 17011728,
+        "output_size": 17011728,
+        "endian_preserved": true,
+        "header_size_preserved": true,
+        "entry_count_preserved": true,
+        "entry_identity_and_offsets_preserved": true,
+        "relocated": false,
+        "changed_members": [
+          "anm10005.dat",
+          "anm10110.dat",
+          "anm10129.dat",
+          "anm10810.dat",
+          "anm10921.dat",
+          "anm11020.dat",
+          "anm11030.dat",
+          "anm11220.dat",
+          "anm11421.dat",
+          "anm11451.dat",
+          "anm11551.dat",
+          "anm11611.dat",
+          "anm11630.dat",
+          "anm11739.dat",
+          "anm11810.dat",
+          "anm11819.dat",
+          "anm11829.dat",
+          "anm11910.dat",
+          "anm12130.dat",
+          "anm12230.dat",
+          "anm12231.dat",
+          "anm12239.dat",
+          "anm12250.dat",
+          "anm12339.dat",
+          "anm12351.dat",
+          "anm12420.dat",
+          "anm12429.dat",
+          "anm12440.dat",
+          "anm12449.dat",
+          "anm12450.dat",
+          "anm12620.dat",
+          "anm12629.dat",
+          "anm13000.dat",
+          "anm13009.dat",
+          "anm2000.dat",
+          "anm3000.dat",
+          "ci3204.txp",
+          "ci3209.txp",
+          "ci3211.txp",
+          "ci3212.txp",
+          "ci3214.txp",
+          "ci3215.txp",
+          "ci3216.txp",
+          "ci3217.txp",
+          "ci3218.txp",
+          "ci3219.txp",
+          "ci3220.txp",
+          "ci3222.txp",
+          "ci3223.txp",
+          "ci3225.txp",
+          "ci3226.txp",
+          "ci3228.txp",
+          "ci3230.txp",
+          "ci3231.txp",
+          "ci3235.txp",
+          "ci5003.txp",
+          "ci5005.txp",
+          "ci7006.txp",
+          "ci9005.txp",
+          "ci9006.txp",
+          "ci9009.txp",
+          "ci9010.txp",
+          "ci9011.txp",
+          "ci9012.txp",
+          "ci9013.txp",
+          "ci9014.txp",
+          "ci9015.txp",
+          "ci9016.txp",
+          "GThumb.dat",
+          "NowLoading.txp"
+        ]
+      }
+    },
+    {
+      "name": "nispack.start.all_members_exact",
+      "pass": true,
+      "details": {
+        "archive": 87,
+        "source_root": 87,
+        "readback_root": 87
+      }
+    },
+    {
+      "name": "nispack.data.all_members_exact",
+      "pass": true,
+      "details": {
+        "archive": 171,
+        "source_root": 171,
+        "readback_root": 171
+      }
+    },
+    {
+      "name": "gthumb.expected_hash",
+      "pass": true,
+      "details": {
+        "actual": "021533af0d8d90e9d1b6884b79130629aed2aece3ad8aceb6ac1a8bfd66bce49",
+        "report": "021533af0d8d90e9d1b6884b79130629aed2aece3ad8aceb6ac1a8bfd66bce49",
+        "expected": "021533af0d8d90e9d1b6884b79130629aed2aece3ad8aceb6ac1a8bfd66bce49"
+      }
+    },
+    {
+      "name": "save_icons.expected_hashes",
+      "pass": true,
+      "details": {
+        "ICON0_NEW.png": {
+          "actual": "2b13fb73ba601304c2fcd6898856a60089dde7d70ff67352961b54c4b1b52416",
+          "report": "2b13fb73ba601304c2fcd6898856a60089dde7d70ff67352961b54c4b1b52416",
+          "expected": "2b13fb73ba601304c2fcd6898856a60089dde7d70ff67352961b54c4b1b52416",
+          "pass": true
+        },
+        "ICON0_PLAY.png": {
+          "actual": "e26e2761d41311b512dd6c96348a0e1419dd891466d98dace4cd0ae6c89e3847",
+          "report": "e26e2761d41311b512dd6c96348a0e1419dd891466d98dace4cd0ae6c89e3847",
+          "expected": "e26e2761d41311b512dd6c96348a0e1419dd891466d98dace4cd0ae6c89e3847",
+          "pass": true
+        },
+        "ICON0_SYSTEM.PNG": {
+          "actual": "08fc9a39c709ac47b0bf202a6cbe625785c84687fe9059fa70d1d2be6377dddb",
+          "report": "08fc9a39c709ac47b0bf202a6cbe625785c84687fe9059fa70d1d2be6377dddb",
+          "expected": "08fc9a39c709ac47b0bf202a6cbe625785c84687fe9059fa70d1d2be6377dddb",
+          "pass": true
+        }
+      }
+    },
+    {
+      "name": "xmb.expected_hashes",
+      "pass": true,
+      "details": {
+        "actual": {
+          "PARAM.SFO": "cd089c778ca423255214b7ce17eb03374f62e743128c2b9e360fb1e125dec52b",
+          "ICON0.PNG": "5ff9e4d54e8156ddbc59acf97084786afa8f7177182874582eac377829e1b4e5",
+          "PIC0.PNG": "913ca24553606e47c746382c39d348bb6f1426f1764afa18e396d48fa250e5e2"
+        },
+        "reported": {
+          "PARAM.SFO": "cd089c778ca423255214b7ce17eb03374f62e743128c2b9e360fb1e125dec52b",
+          "ICON0.PNG": "5ff9e4d54e8156ddbc59acf97084786afa8f7177182874582eac377829e1b4e5",
+          "PIC0.PNG": "913ca24553606e47c746382c39d348bb6f1426f1764afa18e396d48fa250e5e2"
+        },
+        "expected": {
+          "PARAM.SFO": "cd089c778ca423255214b7ce17eb03374f62e743128c2b9e360fb1e125dec52b",
+          "ICON0.PNG": "5ff9e4d54e8156ddbc59acf97084786afa8f7177182874582eac377829e1b4e5",
+          "PIC0.PNG": "913ca24553606e47c746382c39d348bb6f1426f1764afa18e396d48fa250e5e2"
+        }
+      }
+    },
+    {
+      "name": "iso.original_identity",
+      "pass": true,
+      "details": {
+        "actual": "32de3247bed3c78fdb66a9fe6d6a973ac808982d2472f569a90809135df9cce5",
+        "expected": "32de3247bed3c78fdb66a9fe6d6a973ac808982d2472f569a90809135df9cce5"
+      }
+    },
+    {
+      "name": "iso.size_exact",
+      "pass": true,
+      "details": {
+        "original": 220889088,
+        "candidate": 220889088,
+        "expected": 220889088
+      }
+    },
+    {
+      "name": "iso.member.START.LZS.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/USRDIR/START.LZS",
+        "source_record": {
+          "record_offset": 51626,
+          "extent_lba": 54576,
+          "data_size": 5064729,
+          "flags": 0,
+          "name": "START.LZS"
+        },
+        "candidate_record": {
+          "record_offset": 51626,
+          "extent_lba": 54576,
+          "data_size": 4926957,
+          "flags": 0,
+          "name": "START.LZS"
+        },
+        "slot_size": 5066752,
+        "replacement_size": 4926957,
+        "replacement_sha256": "83a58a7c9c1589d1b96072e67482b1579967ab5b064fbfa9538cf130b3cae413",
+        "candidate_sha256": "83a58a7c9c1589d1b96072e67482b1579967ab5b064fbfa9538cf130b3cae413",
+        "source_sha256": "7aed0d82fc689a9d735e9192c37d769e6920b4feeddf8ae920863e11df7fc926",
+        "full_original_slot_padding_size": 139795,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.member.DATA.DAT.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/USRDIR/DATA.DAT",
+        "source_record": {
+          "record_offset": 51296,
+          "extent_lba": 57056,
+          "data_size": 17011728,
+          "flags": 0,
+          "name": "DATA.DAT"
+        },
+        "candidate_record": {
+          "record_offset": 51296,
+          "extent_lba": 57056,
+          "data_size": 17011728,
+          "flags": 0,
+          "name": "DATA.DAT"
+        },
+        "slot_size": 17012736,
+        "replacement_size": 17011728,
+        "replacement_sha256": "13c702dd3c3a0c7085d1de05475db0d753eeee02eef646392496e634cc8b344f",
+        "candidate_sha256": "13c702dd3c3a0c7085d1de05475db0d753eeee02eef646392496e634cc8b344f",
+        "source_sha256": "11348bbc5e42333a66d45561e289d988604849441fc1c82dc3b8612bcb231cdf",
+        "full_original_slot_padding_size": 1008,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.member.PARAM.SFO.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/PARAM.SFO",
+        "source_record": {
+          "record_offset": 47256,
+          "extent_lba": 54272,
+          "data_size": 560,
+          "flags": 0,
+          "name": "PARAM.SFO"
+        },
+        "candidate_record": {
+          "record_offset": 47256,
+          "extent_lba": 54272,
+          "data_size": 560,
+          "flags": 0,
+          "name": "PARAM.SFO"
+        },
+        "slot_size": 2048,
+        "replacement_size": 560,
+        "replacement_sha256": "cd089c778ca423255214b7ce17eb03374f62e743128c2b9e360fb1e125dec52b",
+        "candidate_sha256": "cd089c778ca423255214b7ce17eb03374f62e743128c2b9e360fb1e125dec52b",
+        "source_sha256": "c02abb467efa8d284cb34a0a8926a7e9adfefa4f006b119505979dcd21d33c53",
+        "full_original_slot_padding_size": 1488,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.member.ICON0.PNG.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/ICON0.PNG",
+        "source_record": {
+          "record_offset": 47200,
+          "extent_lba": 54144,
+          "data_size": 11348,
+          "flags": 0,
+          "name": "ICON0.PNG"
+        },
+        "candidate_record": {
+          "record_offset": 47200,
+          "extent_lba": 54144,
+          "data_size": 11699,
+          "flags": 0,
+          "name": "ICON0.PNG"
+        },
+        "slot_size": 12288,
+        "replacement_size": 11699,
+        "replacement_sha256": "5ff9e4d54e8156ddbc59acf97084786afa8f7177182874582eac377829e1b4e5",
+        "candidate_sha256": "5ff9e4d54e8156ddbc59acf97084786afa8f7177182874582eac377829e1b4e5",
+        "source_sha256": "e32a6c2cbb70f89103ff8d37d5428219cfe2c66b414d8fc5532738499a22f10a",
+        "full_original_slot_padding_size": 589,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.member.PIC0.PNG.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/PIC0.PNG",
+        "source_record": {
+          "record_offset": 47312,
+          "extent_lba": 54160,
+          "data_size": 53832,
+          "flags": 0,
+          "name": "PIC0.PNG"
+        },
+        "candidate_record": {
+          "record_offset": 47312,
+          "extent_lba": 54160,
+          "data_size": 48661,
+          "flags": 0,
+          "name": "PIC0.PNG"
+        },
+        "slot_size": 55296,
+        "replacement_size": 48661,
+        "replacement_sha256": "913ca24553606e47c746382c39d348bb6f1426f1764afa18e396d48fa250e5e2",
+        "candidate_sha256": "913ca24553606e47c746382c39d348bb6f1426f1764afa18e396d48fa250e5e2",
+        "source_sha256": "486dfdfe6f0afbea10f8b48bec1e906ebf0555e2e0a561ca3e5a2c70a0958479",
+        "full_original_slot_padding_size": 6635,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.member.EBOOT.BIN.exact_readback",
+      "pass": true,
+      "details": {
+        "path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+        "source_record": {
+          "record_offset": 49304,
+          "extent_lba": 544,
+          "data_size": 586000,
+          "flags": 0,
+          "name": "EBOOT.BIN"
+        },
+        "candidate_record": {
+          "record_offset": 49304,
+          "extent_lba": 544,
+          "data_size": 586000,
+          "flags": 0,
+          "name": "EBOOT.BIN"
+        },
+        "slot_size": 587776,
+        "replacement_size": 586000,
+        "replacement_sha256": "8a2a9d676c998ed95f84a864c165742b25530a8a2ec068b55cbf712162043708",
+        "candidate_sha256": "8a2a9d676c998ed95f84a864c165742b25530a8a2ec068b55cbf712162043708",
+        "source_sha256": "dae4ccaa2c753f4e72349aacc9fcba9b198027c06dd932721c0a4bde52e8e9ee",
+        "full_original_slot_padding_size": 1776,
+        "full_original_slot_padding_zero": true
+      }
+    },
+    {
+      "name": "iso.readback.story.dynamic_mod4_alignment",
+      "pass": true,
+      "details": {
+        "pass": true,
+        "story_size": 895268,
+        "story_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+        "data_offset": 4920,
+        "table_entry_count": 614,
+        "physical_record_count": 614,
+        "alias_count": 0,
+        "command_token_count": 75331,
+        "text_token_count": 5063,
+        "semantic_token_count": 80394,
+        "alignment_padding_count": 49857,
+        "record_offset_mod4_violation_count": 0,
+        "record_end_mod4_violation_count": 0,
+        "semantic_token_offset_mod4_violation_count": 0,
+        "semantic_token_end_mod4_violation_count": 0,
+        "alignment_padding_offset_mod4_violation_count": 0,
+        "missing_alignment_padding_count": 0,
+        "unexpected_alignment_padding_count": 0,
+        "alignment_padding_rule_violation_count": 0,
+        "violation_examples": [],
+        "source": "PROJECT_ROOT/build/rc9_full/Disgaea_Infinite_Korean_RC9_FULL.iso::/PSP_GAME/USRDIR/START.LZS::story.dat",
+        "start_lzs_sha256": "83a58a7c9c1589d1b96072e67482b1579967ab5b064fbfa9538cf130b3cae413",
+        "start_dat_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a",
+        "lzs_header": {
+          "extension": "dat",
+          "extension_hex": "64617400",
+          "uncompressed_size": 11981840,
+          "compressed_size_field": 4926953,
+          "compression_flag": 147,
+          "reserved_hex": "000000",
+          "file_size": 4926957
+        },
+        "nispack_entry": {
+          "index": 18,
+          "name": "story.dat",
+          "name_raw_hex": "73746f72792e6461740000000000000000000000000000000000000000000000",
+          "offset": 518144,
+          "size": 895268,
+          "unknown": 999391938,
+          "sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed"
+        },
+        "external_readback_path": "PROJECT_ROOT/build/rc9_full/iso_readback_start_members/story.dat",
+        "external_readback_sha256": "ea7b123860881aafebc3b835088d22b1d115841bf05c71e9d9d4563652d263ed",
+        "external_readback_exact": true
+      }
+    },
+    {
+      "name": "lzs.non_overlapping_back_references",
+      "pass": true,
+      "details": {
+        "template": {
+          "payload_size": 5064713,
+          "decoded_size": 11981840,
+          "token_count": 3866544,
+          "literal_token_count": 3270313,
+          "escaped_flag_token_count": 5707,
+          "back_reference_count": 596231,
+          "overlapping_back_reference_count": 0,
+          "maximum_back_reference_length": 254,
+          "maximum_back_reference_distance": 254,
+          "maximum_overlap_excess": 0
+        },
+        "built": {
+          "payload_size": 4926941,
+          "decoded_size": 11981840,
+          "token_count": 3712062,
+          "literal_token_count": 3107079,
+          "escaped_flag_token_count": 4913,
+          "back_reference_count": 604983,
+          "overlapping_back_reference_count": 0,
+          "maximum_back_reference_length": 254,
+          "maximum_back_reference_distance": 254,
+          "maximum_overlap_excess": 0
+        }
+      }
+    },
+    {
+      "name": "lzs.template_flags_slot_and_readback",
+      "pass": true,
+      "details": {
+        "template_header": {
+          "extension": "dat",
+          "extension_hex": "64617400",
+          "uncompressed_size": 11981840,
+          "compressed_size_field": 5064725,
+          "compression_flag": 147,
+          "reserved_hex": "000000",
+          "file_size": 5064729
+        },
+        "built_header": {
+          "extension": "dat",
+          "extension_hex": "64617400",
+          "uncompressed_size": 11981840,
+          "compressed_size_field": 4926953,
+          "compression_flag": 147,
+          "reserved_hex": "000000",
+          "file_size": 4926957
+        },
+        "compressed_size": 4926957,
+        "slot_size": 5066752,
+        "expected_slot_size": 5066752,
+        "decompressed_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a",
+        "start_dat_sha256": "5ea4e7f20582a3a95b4ddf2467a110720ff44e1b69808bbb06184f9fd257da4a"
+      }
+    },
+    {
+      "name": "iso.only_allowed_members_changed",
+      "pass": true,
+      "details": {
+        "expected_changed_members": [
+          "DATA.DAT",
+          "EBOOT.BIN",
+          "ICON0.PNG",
+          "PARAM.SFO",
+          "PIC0.PNG",
+          "START.LZS"
+        ],
+        "actual_changed_members": [
+          "DATA.DAT",
+          "EBOOT.BIN",
+          "ICON0.PNG",
+          "PARAM.SFO",
+          "PIC0.PNG",
+          "START.LZS"
+        ],
+        "unexpected_changed_byte_count": 0,
+        "unexpected_examples": []
+      }
+    }
+  ],
+  "runtime": "NOT RUN",
+  "canonical_promoted": false,
+  "release_patch_created": false,
+  "static_pass": true,
+  "release_status": "RC9_STATIC_PASS_RUNTIME_PENDING"
+}
